@@ -1,0 +1,128 @@
+
+.container{
+/* background-color: #B4239A; */
+background-color:white;
+height: 200px;
+}
+    
+
+.container h1{
+    background-color: #4800BD;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    margin: 0.5rem 4rem 8rem;
+    padding: 3rem;
+    font-size: 40px;
+    align-items: center;
+    color: white;
+}
+
+.services{
+    display: grid;
+    margin-top: 7rem;
+    padding: 2rem;
+    gap: 70px;
+
+}
+.services .service{
+    display: grid;
+    grid-template-columns: 400px auto;
+    gap: 7rem;
+
+
+}
+.services .service .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.services .service .text h2{
+    color: #4800BD;
+    font-size: 30px;
+}
+.services .service .text p{
+    font-size: 15px;
+    margin-left: 0;
+}
+.services .service .text a{
+    text-decoration: none;
+    background-color: #4800BD;
+    border-radius: 20px;
+    color: white;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    margin-left: 25rem;
+    font-weight: 600;
+}
+
+
+.services .second{
+    display: grid;
+    grid-template-columns: 600px auto;
+    gap: 7rem;
+
+}
+.services .second img{
+
+}
+.services .second .text a{
+    margin-left: 0;
+
+}
+
+.services .third{
+    display: grid;
+    grid-template-columns: 400px auto;
+    gap: 7rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+
+
+}
+.services .third img{
+    width: 400px;
+
+}
+
+.services .forth{
+    display: grid;
+    grid-template-columns: 600px auto;
+    gap: 8rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: -1rem;
+
+}
+.services .forth img{
+    width: 450px;
+}
+.services .fifth{
+    display: grid;
+    grid-template-columns: 400px auto;
+    gap: 8rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: -1rem;
+
+}
+.services .fifth img{
+    width: 450px;
+}
+
+.why_choose_us{
+    padding: 3rem;
+    padding-left: 4rem;
+    background-color: rgb(245, 249, 247);
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.why_choose_us h1{
+    color: #4800BD;
+}
+.why_choose_us p{
+    font-size: 23px;
+}
