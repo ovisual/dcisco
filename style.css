@@ -65,6 +65,7 @@ header{
     position: relative;
     overflow: hidden;
     /* width:auto; */
+    align-items: center;
 }
 header .headerleft{
     color: white;
@@ -121,11 +122,7 @@ header img{
     height: auto; /* Automatically adjust height to maintain aspect ratio */
     /* display: block; Ensure the image behaves as a block element */
     position: absolute; 
-    /* top: 0; /* Align the top of the image with the top of the container */
-    /* left: 0; Align the left of the image with the left of the container */
-    /* right: 0; Align the right of the image with the right of the container */
-    /* bottom: 0; Align the bottom of the image with the bottom of the container */ 
-    /* margin: auto;  */
+    object-fit: cover;
 }
 .circle-p{
     width: 4rem;
@@ -261,7 +258,7 @@ background-color: red;
 .category{
     position: relative; /* Set container to relative position */
     display: inline-block;
-    width: 280px;
+    width: 100%;
     
 }
 .category img{
@@ -289,51 +286,56 @@ background-color: red;
     color: #C11B8F;
 }
 .lists{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction:column;
     gap: 35px;
     margin-top: 3rem;
     align-items: center;
     justify-content: center;
     margin-left: 3rem;
+    width: 100%;
 
 }
-.list{
+.why_choose_us .list{
     display: flex;
     border-radius: 18px;
     box-shadow: 1px 4px 4px rgba(167, 161, 161, 0.7);
-    max-width:500px;
-    height: 130px;
+    max-width:570px;
+    width: 80%;
+    height: 80px;
     padding: 1rem;
     justify-content: center;
     align-items: center;
     gap: 1rem;
     background-color: white;
 }
-.list img{
-    width: 70px;
-    height: 70px;
+.why_choose_us .list img{
+    width: 40px;
+    height: 40px;
     /* background-color: #bbb1c7; */
     background-image: linear-gradient(to bottom, #a281cb, #f8f8fa); /* Example gradient from red to blue */
 
     border-radius: 50%;
     padding: 10px;
+    margin-left: 5rem;
 
 }
-.text{
+.why_choose_us .text{
     display: flex;
     flex-direction: column;
-    font-size: 15px;
+    font-size: 10px;
     text-align: left;
+    margin-left: -30px;
 
 }
-.text h3{
+.why_choose_us .text h3{
     width: 20rem;
     padding-left: 25px;
     padding-top: 20px;
 }
-.text p{
-    font-size: 10px;
+.why_choose_us .text p{
+    font-size: 8px;
+    width: 260px;
 }
 .testimonials{
     padding: 3rem;
@@ -395,33 +397,33 @@ background-color: red;
 
 }
 .upcoming_trainings h1{
-    font-size: 35px;
+    font-size: 10px;
     color: #C11B8F;
 
 }
-.trainings{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.upcoming_trainings .trainings{
+    display: flex;
+    flex-direction: column;
     gap: 35px;
     margin-top: 3rem;
     align-items: center;
     justify-content: center;
 
 }
-.training{
+.upcoming_trainings .training{
     background-color: rgba(255, 141, 235, 0.07);
     border-radius: 20px;
     box-shadow: 1px 2px 3px rgba(138, 130, 130, 0.9);
 
-    max-width: 336px; /* Set the maximum width of the container */
-    width: 100%;
+    max-width: 600px; /* Set the maximum width of the container */
+    width: 90%;
 
 }
-.training img{
+.upcoming_trainings .training img{
     width: 100%;
     
 }
-.training h3,p{
+.upcoming_trainings .training h3,p{
     margin: 1.3rem 1.5rem;
 }
 .training h3{
@@ -512,7 +514,7 @@ footer{
 footer .socials{
     display: flex;
     gap: 10px;
-    margin-left: 0.6rem;
+    margin-left:10rem;
 
 }
 footer h3{
@@ -1096,7 +1098,9 @@ footer h5{
     footer .socials{
         display: flex;
         gap: 1px;
-        margin-left: 18rem;
+        margin-left: 0;
+        text-align: center;
+        justify-content: center;
     
     }
     footer h3{
