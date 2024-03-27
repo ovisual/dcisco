@@ -579,14 +579,14 @@ footer h5{
         padding: 5px;
         margin: 0px 20px;
         right: 0;
-        gap: 6rem;
+        gap: 7rem;
         width: 100%;
     
     }
     nav img{
         width: 6rem;
         height: 2rem;
-        margin: 10px 1rem;
+        margin: 10px 0;
     }
     nav ul{
         display: none;
@@ -662,7 +662,7 @@ footer h5{
         font-size: 30px;
         margin-top: 2rem;
         margin: 1rem 1rem;
-        margin-left: 10px;
+        margin-left: 50px;
         width:370px;
         font-style: normal;
         line-height: 3rem;
@@ -674,7 +674,8 @@ footer h5{
         font-style: normal;
         font-size: 17px;
         text-align: center;
-        margin-left: -20px;
+        margin-left: 30px;
+        
 
         
 
@@ -684,7 +685,7 @@ footer h5{
         background-color: white;
         margin-top:1rem;
         padding: 13px;
-        margin-left: 4rem;
+        margin-left: 6rem;
         border: none;
         border-radius: 14px;
         width: 60%;
@@ -762,6 +763,7 @@ footer h5{
         margin-top: 3rem;
         align-items: center;
         justify-content: center;
+        margin-left: 10px;
         
     
     }
@@ -771,7 +773,7 @@ footer h5{
         box-shadow: 1px 2px 3px rgba(138, 130, 130, 0.9);
     
         max-width: 570px; /* Set the maximum width of the container */
-        width: 90%;
+        width: 95%;
     
     }
     .course img{
@@ -827,14 +829,14 @@ footer h5{
         margin-top: 3rem;
         align-items: center;
         justify-content: center;
-        margin-left: 4rem;
+        margin-left: 30px;
     
     }
     .category{
         position: relative; /* Set container to relative position */
         display: inline-block;
         max-width: 700px;
-        width: 90%;
+        width: 95%;
         
     }
     .category img{
@@ -862,7 +864,7 @@ footer h5{
         font-size: 35px;
         color: #C11B8F;
     }
-    .lists{
+    .why_choose_us .lists{
         display: flex;
         flex-direction: column;
         gap: 35px;
@@ -875,7 +877,7 @@ footer h5{
         padding: 1rem;
     
     }
-    .list{
+    .why_choose_us .list{
         display: flex;
         border-radius: 18px;
         box-shadow: 1px 4px 4px rgba(167, 161, 161, 0.7);
@@ -885,10 +887,10 @@ footer h5{
         padding: 4px;
         justify-content: center;
         align-items: center;
-        gap: 8px;
+        gap: 40px;
         background-color: white;
     }
-    .list img{
+    .why_choose_us .list img{
         width: 35px;
         height: 35px;
         /* background-color: #bbb1c7; */
@@ -898,22 +900,27 @@ footer h5{
         padding: 3px;
     
     }
-    .text{
+    .why_choose_us .list .text{
         display: flex;
         flex-direction: column;
         font-size: 9px;
         text-align: left;
         justify-content: center;
+        width: 100%;
+        row-gap: 0;
+        margin-right: 4rem;
 
     
     }
-    .text h3{
-        width: 20rem;
+    .why_choose_us .text h3{
+        width:17rem;
         padding-left: 18px;
         padding-top: 25px;
     }
-    .text p{
-        font-size: 10px;
+    .why_choose_us .text p{
+        font-size: 8px;
+        width: 300px;
+        margin-top: 1px;
     }
     .testimonials{
         padding: 10px;
