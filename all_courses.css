@@ -1,3 +1,13 @@
+.container{
+    height: fit-content;
+}
+.container .cyber{
+    background-color: white;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 780px auto;
+}
+
 header{
     display: flex;
     height: fit-content;
@@ -32,3 +42,60 @@ header .headerleft p{
     text-decoration: none;
     font-weight: 600;
 }
+
+.each_course .left{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    padding: 30px;
+}
+.each_course .right{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    height: fit-content;
+}
+
+.each_course .right .prices{
+    font-weight: 500;
+
+}
+.each_course .right span{
+    font-size: 21px;
+}
+.each_course .right .course_info{
+    color: #AD47B2;
+    line-height: 34px;
+}
+
+.each_course .headerright button{
+    background-color: #AD47B2;
+    border: none;
+    padding: 10px;
+}
+.each_course .headerright button a{
+    color: white;
+    text-decoration: none;
+}
+.each_course .left h4{
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: "Poppins";
+}
+
+.tags .btns{
+    display: flex;
+    gap: 23px;
+    margin-top: 10px;
+
+}
+.tags .btns button{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(128, 123, 123);
+}
+
+
