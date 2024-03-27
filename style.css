@@ -578,7 +578,7 @@ footer h5{
         margin: 0px 20px;
         right: 0;
         gap: 6rem;
-        width: 80%;
+        width: 100%;
     
     }
     nav img{
@@ -591,13 +591,14 @@ footer h5{
         flex-direction: column;
         list-style: none;
         left: 0;
-        gap:20px;
-        position:fixed;
+        gap:10px;
+        position:absolute;
         background-color: white;
         padding: 10px;
-        margin-top: 13.7rem;
+        top: 0;
+        margin: 0.1rem 1rem;
         z-index: 1;
-        width: 200px;
+        width: 160px;
     }
     .switch{
         display: block;
@@ -608,6 +609,8 @@ footer h5{
         display: none;
         cursor: pointer;
         margin-left: -50px;
+        margin-top: -2.6rem;
+   
 
       }
     .switch img{
@@ -633,7 +636,11 @@ footer h5{
     header .headerleft{
         color: white;
         margin: 0rem 1rem;
-        width: 80%;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        margin: 1rem 1rem;
     }
     header .headerleft h3{
         font-weight:300;
@@ -650,11 +657,11 @@ footer h5{
         font-style: normal;
       } */
     header .headerleft h1{
-        font-size: 31px;
+        font-size: 30px;
         margin-top: 2rem;
         margin: 1rem 1rem;
-        margin-left: 0;
-        width:390px;
+        margin-left: 10px;
+        width:370px;
         font-style: normal;
         line-height: 3rem;
         text-align: center;
@@ -738,7 +745,7 @@ footer h5{
         padding: 1rem;
         padding-left: 2rem;
         margin-top: 23rem;
-        width: 70%;
+        width: 90%;
     
     }
     .featured_courses h1{
@@ -762,7 +769,7 @@ footer h5{
         box-shadow: 1px 2px 3px rgba(138, 130, 130, 0.9);
     
         max-width: 570px; /* Set the maximum width of the container */
-        width: 80%;
+        width: 90%;
     
     }
     .course img{
@@ -825,7 +832,7 @@ footer h5{
         position: relative; /* Set container to relative position */
         display: inline-block;
         max-width: 700px;
-        width: 70%;
+        width: 90%;
         
     }
     .category img{
@@ -857,46 +864,51 @@ footer h5{
         display: flex;
         flex-direction: column;
         gap: 35px;
-        margin-top: 10px;
+        margin-top:0;
         align-items: center;
         justify-content: center;
-        margin-left: 10px;
+        margin-left: 0;
+        width: 100%;
+        margin: 1rem 0.1rem;
+        padding: 1rem;
     
     }
     .list{
         display: flex;
         border-radius: 18px;
         box-shadow: 1px 4px 4px rgba(167, 161, 161, 0.7);
-        max-width:550px;
+        max-width:470px;
         width: 80%;
-        height: 90px;
-        padding: 10px;
+        height: 65px;
+        padding: 4px;
         justify-content: center;
         align-items: center;
         gap: 8px;
         background-color: white;
     }
     .list img{
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
         /* background-color: #bbb1c7; */
         background-image: linear-gradient(to bottom, #a281cb, #f8f8fa); /* Example gradient from red to blue */
     
         border-radius: 50%;
-        padding: 10px;
+        padding: 3px;
     
     }
     .text{
         display: flex;
         flex-direction: column;
-        font-size: 12px;
+        font-size: 9px;
         text-align: left;
+        justify-content: center;
+
     
     }
     .text h3{
         width: 20rem;
-        padding-left: 25px;
-        padding-top: 20px;
+        padding-left: 18px;
+        padding-top: 25px;
     }
     .text p{
         font-size: 10px;
