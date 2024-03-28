@@ -562,7 +562,7 @@ footer h5{
         margin: 0;
         padding: 0;
         background-color: white;
-        max-width: 700px;
+        max-width: auto;
     }
     
     h1, h2, h3, p, a{
@@ -572,19 +572,21 @@ footer h5{
         /* background-color: #B4239A; */
         background-color:rgba(251, 217, 245, 0.5);
         height: 1000px;
+        max-width: 100%;
         width: 100%;
+        margin: 0;
+        padding: 0;
         
     }
 
     nav{
         background-color: transparent;
         display: flex;
-        justify-content:space-around;
-        align-items:end;
+        justify-content:space-evenly;
+        align-items:center;
         padding: 5px;
-        margin: 0px 20px;
-        right: 0;
-        gap: 7rem;
+        margin: 0px 0;
+        gap: 30%;
         width: 100%;
         overflow: hidden;
     
@@ -598,15 +600,15 @@ footer h5{
         display: none;
         flex-direction: column;
         list-style: none;
-        left: 0;
         gap:10px;
         position:absolute;
         background-color: white;
         padding: 10px;
         top: 0;
-        margin: 0.1rem 1rem;
+        margin: 0.1rem 0;
+        margin-right: 70%;
         z-index: 1;
-        width: 160px;
+        width: auto;
         overflow: hidden;
     }
     .switch{
@@ -617,14 +619,14 @@ footer h5{
       .switch .close-icon{
         display: none;
         cursor: pointer;
-        margin-left: -50px;
-        margin-top: -1.8rem;
+        margin-left: 0;
+        margin-top: 0;
    
 
       }
     .switch img{
         display: block;
-        margin-left: -50px;
+        margin: auto;
 
     }
     .container header{
@@ -638,20 +640,22 @@ footer h5{
         /* align-items: center; */
         flex-direction: column;
         position: relative;
-        width:80%;
+        width:100%;
         overflow: hidden;
         ;
     }
     .container header .headerleft{
         color: white;
-        margin: 0rem -1rem;
-        margin-left: -4rem;
+        margin: 0rem 0;
+        margin-left: 0;
         left: 0;
         width: auto;
         display: flex;
         flex-direction: column;
-        justify-content:space-evenly;
+        justify-content:center;
         overflow: hidden;
+        text-align: center;
+        align-items: center;
     }
     .container header .headerleft h3{
         font-weight:300;
@@ -659,7 +663,7 @@ footer h5{
         word-spacing: 5px;
         letter-spacing: 1px;
         text-align:center;
-        margin-left: 1rem;
+        margin-left: 0;
     }
     
     /* .poppins-bold {
@@ -671,19 +675,19 @@ footer h5{
         font-size: 30px;
         margin-top: 2rem;
         margin: 1rem 0;
-        margin-left: 30px;
-        width:370px;
+        margin-left: 0;
+        width:70%;
         font-style: normal;
         line-height: 3rem;
         text-align: center;
     }
     .container header .headerleft p{
         margin-top: 1rem;
-        width: 20rem;
+        width: 69%;
         font-style: normal;
         font-size: 13px;
         text-align: center;
-        margin-left: 40px;
+        margin-left: 0;
         padding: 10px 1rem
         
 
@@ -693,9 +697,9 @@ footer h5{
     }
     .container header .headerleft button{
         background-color: white;
-        margin-top:1rem;
+        margin-top:-3%;
         padding: 13px;
-        margin-left: 6rem;
+        margin-left: 0;
         border: none;
         border-radius: 14px;
         width: 60%;
@@ -713,8 +717,8 @@ footer h5{
         /* margin-left: 8rem; */
     }
     .container header img{
-        margin-left: -4rem;
-        margin-top: 22rem;
+        margin-left: -18%;
+        margin-top: 100%;
        
         /* overflo: hidden; */
         max-width: fit-content;
@@ -755,10 +759,10 @@ footer h5{
         margin-top: 31rem;
     }
     .featured_courses{
-        padding: 1rem;
-        padding-left: 1rem;
+        padding: 5%;
+        padding-left: 0;
         margin-top: 2rem;
-        width: 90%;
+        width: 100%;
     
     }
     .featured_courses h1{
@@ -773,8 +777,9 @@ footer h5{
         margin-top: 3rem;
         align-items: center;
         justify-content: center;
-        margin-left: 10px;
+        margin-left: 0;
         overflow: hidden;
+        padding: 10%;
         
     
     }
@@ -783,8 +788,8 @@ footer h5{
         border-radius: 20px;
         box-shadow: 1px 2px 3px rgba(138, 130, 130, 0.9);
     
-        max-width: 570px; /* Set the maximum width of the container */
-        width: 95%;
+        max-width: 100%; /* Set the maximum width of the container */
+        width: 100%;
     
     }
     .course img{
@@ -847,20 +852,20 @@ footer h5{
     .category{
         position: relative; /* Set container to relative position */
         display: inline-block;
-        max-width: 700px;
+        max-width: 100%;
         width: 95%;
         
     }
     .category img{
         display: block; /* Ensure the image behaves as a block element */
-        max-width: 500px;
+        max-width: 100%;
         width: 100%;
     }
     .category h2{
         position: absolute; /* Position the text absolutely */
         bottom: 10px; /* Adjust the distance from the bottom */
         color: white; /* Set text color */
-        padding-left: 7rem;
+        padding-left: 0;
         margin: 0;
         font-size: 20px;
     }
@@ -888,7 +893,7 @@ footer h5{
         justify-content: center;
         margin-left: 0;
         width: 100%;
-        margin-right: 2rem;
+        margin-right: 0;
         padding: 20px;
         overflow: hidden;
     
@@ -897,15 +902,15 @@ footer h5{
         display: flex;
         border-radius: 18px;
         box-shadow: 1px 4px 4px rgba(167, 161, 161, 0.7);
-        width: 96%;
+        width: 100%;
         height:100%;
         padding: 4px;
         justify-content: center;
         align-items: center;
         gap: 20px;
         background-color: white;
-        margin-left: -2rem;
-        margin-right: 1rem;
+        margin-left: 0;
+        margin-right: 10%;
         overflow: hidden;
     }
     .why_choose_us .lists .list img{
@@ -973,19 +978,21 @@ footer h5{
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 300px;
+        height: 500px;
         overflow: hidden;
     }
     .testimony .text{
         color: white;
         width: 100%;
         margin-left: -10%;
+        margin-top: -10%;
     }
     .star{
         color: yellow;;
+
     }
     .testimony .text h3{
-        margin-top: -44px;
+        margin-top: -46px;
     }
     .testimony .text p{
         font-size: 10px;
