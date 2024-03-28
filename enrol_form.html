@@ -11,22 +11,31 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="contact_us.css">
 
 <style>
-    footer{
-        margin-top: 10rem;
+    .enroll{
+        background-color: #fbf8fa;
+        height: fit-content;
+        padding: 2rem;
+        margin-top: -6rem;
+
+        
     }
-    .container h1{
-    background-color: #4800BD;
-    border-radius: 20px;
-    justify-content: center;
-    text-align: center;
-    padding: 3rem;
-    font-size: 40px;
-    align-items: center;
-    color: white;
-}
+      .enroll p{
+        width: 500px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .enroll h3, p{
+        text-align: center;
+    }
+    footer{
+        margin-top: 0;
+    }
+  
 </style>
+
 
 
 
@@ -62,11 +71,46 @@
             <div class="close-icon">&#10006;</div>
         </div>
     </nav>
-    <h1>Success Stories</h1>
+    
 
     
    </div>
+  <section class="enroll">
+    <h3>Enrollment Form</h3>
+    <p>Please fill the form below to enroll for your preferred course. One form fill for one course, if you interested in another course, kindly fill the form again</p>
+    <form action="#" >
+        <div class="form-container">
+            <div class="form-field">
+                <label for="full-name">Full Name*</label> <br> <br>
+                <input type="text" id="full-name" placeholder="John David">
+            </div>
+            <div class="form-field">
+                <label for="email">Your Email*</label><br> <br>
+                <input type="text" id="email" placeholder="example@yourmail.com">
+            </div>
+            <div class="form-field">
+                <label for="company">Company*</label><br> <br>
+                <input type="text" id="company" placeholder="Your Company Name Here">
+            </div>
+            <div class="form-field">
+                <label for="subject">Subject*</label><br> <br>
+                <input type="text" id="subject" placeholder="How can we help">
+            </div>
+            <div class="form-field">
+                <label for="message">Message*</label><br> <br>
+                <textarea id="message" rows="10" placeholder="Hello there, I would love to talk about how to"></textarea>
+            </div>
 
+        </div>
+        
+        <div class="form-field">
+            <button type="submit">Send Message</button>
+        </div>
+    </form>
+
+  </section>
+   
+  
 
 
 <footer>
