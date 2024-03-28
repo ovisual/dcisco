@@ -2,13 +2,13 @@
     padding: 0;
     margin: 0;
 }
-body{
+/* body{
     margin: 0;
     padding: 0;
     background-color: white;
     max-width: 700px;
     margin: 0rem auto;
-}
+} */
 
 h1, h2, h3, p, a{
     font-family: 'Poppins';
@@ -464,6 +464,7 @@ background-color: red;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .newsletter h2{
     font-size: 40px;
@@ -573,6 +574,12 @@ footer h5{
         padding: 0;
         margin: 0;
     }
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        max-width: 700px;
+    }
     
     h1, h2, h3, p, a{
         font-family: 'Poppins' sans-serif;
@@ -580,7 +587,7 @@ footer h5{
     .container{
         /* background-color: #B4239A; */
         background-color:rgba(251, 217, 245, 0.5);
-        height: 700px;
+        height: 1000px;
         width: 100%;
         
     }
@@ -634,8 +641,8 @@ footer h5{
         margin-left: -50px;
 
     }
-    header{
-        height:fit-content;
+    .container header{
+        height:900px;
         background-color:#4800BD;
         margin: 0 auto;
         border-radius: 2rem;
@@ -645,9 +652,9 @@ footer h5{
         /* align-items: center; */
         flex-direction: column;
         position: relative;
-        overflow: hidden;
         width:80%;
-        height: 850px;
+        overflow: hidden
+        ;
     }
     header .headerleft{
         color: white;
@@ -684,11 +691,12 @@ footer h5{
     }
     header .headerleft p{
         margin-top: 3rem;
-        width: 430px;
+        width: 20rem;
         font-style: normal;
-        font-size: 17px;
+        font-size: 13px;
         text-align: center;
-        margin-left: 30px;
+        margin-left: 50px;
+        padding: 10px 1rem
         
 
         
@@ -719,7 +727,7 @@ footer h5{
     }
     header img{
         margin-left: -4rem;
-        margin-top: 26rem;
+        margin-top: 30rem;
         width: 40rem;
         /* overflo: hidden; */
         max-width: 100%; /* Ensure the image doesn't exceed the container's width */
@@ -755,13 +763,13 @@ footer h5{
         border-radius: 50%;
         background-color:#6CF5E2;
         position: absolute;
-        margin-left: 18rem;
+        margin-left: 10rem;
         margin-top: 31rem;
     }
     .featured_courses{
         padding: 1rem;
-        padding-left: 2rem;
-        margin-top: 23rem;
+        padding-left: 1rem;
+        margin-top: 2rem;
         width: 90%;
     
     }
@@ -888,21 +896,22 @@ footer h5{
         margin-left: 0;
         width: 100%;
         margin: 1rem 0.1rem;
-        padding: 1rem;
+        padding: 20px;
     
     }
     .why_choose_us .list{
         display: flex;
         border-radius: 18px;
         box-shadow: 1px 4px 4px rgba(167, 161, 161, 0.7);
-        max-width:470px;
-        width: 80%;
+        max-width:600px;
+        width: 90%;
         height: 65px;
         padding: 4px;
         justify-content: center;
         align-items: center;
-        gap: 40px;
+        gap: 20px;
         background-color: white;
+        margin-left: -2rem;
     }
     .why_choose_us .list img{
         width: 35px;
@@ -959,6 +968,7 @@ footer h5{
     }
     .testimony{
         display: flex;
+        flex-direction: column;
         background-color: #4800BD;
         border-radius: 24px;
         padding: 20px;
@@ -969,7 +979,7 @@ footer h5{
     }
     .testimony .text{
         color: white;
-        width: 490px;
+        width: 550px;
     }
     .star{
         color: yellow;;
@@ -978,11 +988,11 @@ footer h5{
         margin-top: -44px;
     }
     .testimony .text p{
-        font-size: 13px;
+        font-size: 10px;
     }
     .imgt {
-        height: 200px;
-        width: 200px;
+        height: 150px;
+        width: 150px;
     }
     .qt{
         box-sizing: border-box;
@@ -1043,32 +1053,33 @@ footer h5{
     }
     
     .newsletter{
-        padding: 3rem;
-        padding-left: 4rem;
+        padding: 30px;
+        padding-left: 1px;
         background-color:#f1eef6;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
+        overflow: hidden;
     }
     .newsletter h2{
-        font-size: 33px;
+        font-size: 24px;
         font-weight: 600;
     }
     .newsletter p{
-        font-size: 18px;
+        font-size: 12px;
         font-weight: 400;
         margin-top: 8px;
-        width: 400px;
+        width: 300px;
     }
     .newsletter input{
         border: none;
-        padding: 20px;
-        height: 20px;
-        width: 320px;
-        border-radius: 20px 0px 0px 20px;
-        font-size: 20px;
+        padding: 13px;
+        height: 15px;
+        width: 200px;
+        border-radius: 13px 0px 0px 13px;
+        font-size: 13px;
     
     }
     .newsletter input::placeholder{
@@ -1078,13 +1089,13 @@ footer h5{
     
     .subscribe a{
         border: none;
-        padding: 20px;
-        height: 19px;
+        padding: 11px;
+        height: 20px;
         border-radius: 0px 20px 20px 0px;
         background-color: #C11B8F;
         text-decoration: none;
         color: white;
-        width: 100px;
+        width: 90px;
     }
     .subscribe{
         display: inline-flex; /* Use inline-flex to make them appear in the same line */
