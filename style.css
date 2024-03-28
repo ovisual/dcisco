@@ -552,11 +552,12 @@ footer h5{
 
 /* ==============responsive============== */
 @media only screen and (max-width:600px){
-
-    * {
+    &,::before,::after{
         padding: 0;
         margin: 0;
+        box-sizing: border-box;
     }
+   
     body{
         margin: 0;
         padding: 0;
@@ -706,7 +707,6 @@ footer h5{
         text-decoration: none;
         color: black;
         font-size: 16px;
-        background-color: ;
     
         font-weight: 600;
         text-align: center;
@@ -715,15 +715,16 @@ footer h5{
     .container header img{
         margin-left: -4rem;
         margin-top: 22rem;
-        width: 40rem;
+       
         /* overflo: hidden; */
-        max-width: 100%; /* Ensure the image doesn't exceed the container's width */
+        max-width: fit-content;
+        width: 100%; /* Ensure the image doesn't exceed the container's width */
         height: 480px; /* Automatically adjust height to maintain aspect ratio */
         /* display: block; Ensure the image behaves as a block element */
         /* position: static;  */
         position:absolute;
         /* text-align: center; */
-        /* object-fit: cover; */
+        object-fit: cover;
     }
     .circle-p{
         width: 4rem;
