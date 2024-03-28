@@ -963,7 +963,6 @@ footer h5{
         margin-top: 10px;
         /* max-width: 900px;
         width: 100%; */
-        overflow: hidden;
     }
     .testimony{
         display: flex;
@@ -973,13 +972,14 @@ footer h5{
         padding: 20px;
         justify-content: center;
         align-items: center;
-        width: 550px;
+        width: 100%;
         height: 300px;
         overflow: hidden;
     }
     .testimony .text{
         color: white;
-        width: 550px;
+        width: 100%;
+        margin-left: -10%;
     }
     .star{
         color: yellow;;
@@ -1018,7 +1018,6 @@ footer h5{
         margin-top: 10px;
         align-items: center;
         justify-content: center;
-        overflow: hidden;
     
     }
     .training{
@@ -1026,8 +1025,8 @@ footer h5{
         border-radius: 20px;
         box-shadow: 1px 2px 3px rgba(77, 56, 56, 0.9);
     
-        max-width: 570px; /* Set the maximum width of the container */
-        width: 70%;
+        max-width: 100%; /* Set the maximum width of the container */
+        width: 100%;
     
     }
     .training img{
@@ -1062,14 +1061,13 @@ footer h5{
         justify-content: center;
         align-items: center;
         text-align: center;
-        overflow: hidden;
     }
     .newsletter h2{
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
     }
     .newsletter p{
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 400;
         margin-top: 8px;
         width: 300px;
@@ -1081,6 +1079,8 @@ footer h5{
         width: 200px;
         border-radius: 13px 0px 0px 13px;
         font-size: 13px;
+        margin-left: 10%;
+
     
     }
     .newsletter input::placeholder{
@@ -1131,7 +1131,7 @@ footer h5{
     
     footer .socials{
         display: flex;
-        gap: 1px;
+        gap: 10px;
         margin-left: 0;
         text-align: center;
         justify-content: center;
