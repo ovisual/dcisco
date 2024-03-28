@@ -2,6 +2,13 @@
     padding: 0;
     margin: 0;
 }
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    max-width: 700px;
+    margin: 0rem auto;
+}
 
 h1, h2, h3, p, a{
     font-family: 'Poppins';
@@ -10,14 +17,18 @@ h1, h2, h3, p, a{
     /* background-color: #B4239A; */
     background-color:rgba(251, 217, 245, 0.5);
     height: 750px;
+    overflow: hidden;
+    width: 100%;
 }
 
-nav{
+.container nav{
     background-color: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
+    padding: 10px;
+    overflow: hidden;
+    width: 90%;
 
 
 }
@@ -175,6 +186,7 @@ ul .dropdown-menu a{
 .featured_courses{
     padding: 3rem;
     padding-left: 4rem;
+    overflow: hidden;
 
 }
 .featured_courses h1{
@@ -239,6 +251,7 @@ background-color: red;
     padding: 3rem;
     padding-left: 4rem;
     background-color: #f1eef6;
+    overflow: hidden;
 
 }
 .browse_category h1{
@@ -279,6 +292,7 @@ background-color: red;
     padding: 3rem;
     padding-left: 4rem;
     background-color: rgb(245, 249, 247);
+    overflow: hidden;
 }
 
 .why_choose_us h1{
@@ -1087,7 +1101,7 @@ footer h5{
     }
     .newsletter .circle-y{
         margin-top: 10px;
-        margin-left: 600px;
+        margin-left: -600px;
 
     }
     
