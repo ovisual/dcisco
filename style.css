@@ -563,6 +563,7 @@ footer h5{
         padding: 0;
         background-color: white;
         max-width: auto;
+        overflow: hidden;
     }
     
     h1, h2, h3, p, a{
@@ -571,7 +572,7 @@ footer h5{
     .container{
         /* background-color: #B4239A; */
         background-color:rgba(251, 217, 245, 0.5);
-        height: 1000px;
+        height: 700px;
         max-width:fit-content;
         width: 100%;
         margin: 0 auto;
@@ -602,17 +603,37 @@ footer h5{
         display: none;
         flex-direction: column;
         list-style: none;
-        gap:10px;
+        gap:20px;
         position:absolute;
         background-color: white;
-        padding: 10px;
+        padding: 20px;
         top: 0;
         margin: 0.1rem 0;
         margin-right: 70%;
         z-index: 1;
-        width: auto;
+        width: max-content;
         overflow: hidden;
+        justify-content: center;
+        text-align: left;
     }
+    ul .dropdown-menu{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: #dedce4;
+        padding: 10px;
+        border-radius: 20px;
+        gap: 10px;
+        width: max-content;
+        z-index: 0;
+        margin-left: -20%
+        ;
+    }
+    ul .dropdown-menu a{
+        font-size: 13px;
+        
+    }
+    
     .switch{
         display: block;
         /* margin-left: 10rem; */
@@ -632,7 +653,7 @@ footer h5{
 
     }
     .container header{
-        height:800px;
+        height:80%;
         background-color:#4800BD;
         margin: 0 auto;
         border-radius: 2rem;
@@ -680,12 +701,12 @@ footer h5{
         margin-left: 0;
         width:100%;
         font-style: normal;
-        line-height: 3rem;
+        line-height: 2rem;
         text-align: center;
     }
     .container header .headerleft p{
         margin-top: 1rem;
-        width: 90%;
+        width:100%;
         font-style: normal;
         font-size: 11px;
         text-align: center;
@@ -719,19 +740,17 @@ footer h5{
         /* margin-left: 8rem; */
     }
     .container header img{
-        margin-left: -28%;
-        margin-top:90%;
+        margin-left: -14%;
+        margin-top:87%;
        
         /* overflo: hidden; */
-        max-width: fit-content;
         width: 100%; /* Ensure the image doesn't exceed the container's width */
-        height: 70%; /* Automatically adjust height to maintain aspect ratio */
+        height:auto; /* Automatically adjust height to maintain aspect ratio */
         /* display: block; Ensure the image behaves as a block element */
         /* position: static;  */
         position:absolute;
         /* text-align: center; */
-        object-fit: cover;
-        margin-bottom: 0;
+        object-fit:cover;
     }
     .circle-p{
         width: 4rem;
@@ -758,7 +777,7 @@ footer h5{
         border-radius: 50%;
         background-color:#6CF5E2;
         position: absolute;
-        margin-left: 20rem;
+        margin-left: 40%;
         margin-top: 31rem;
     }
     .featured_courses{
