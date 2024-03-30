@@ -715,7 +715,7 @@ footer h5{
         font-style: normal;
         font-size: 11px;
         text-align: center;
-        margin-left: 10px;
+        margin-left: 15px;
         padding:0;
         
 
@@ -758,13 +758,13 @@ footer h5{
         object-fit:cover;
     }
     .circle-p{
-        width: 4rem;
-        height: 4rem;
+        width: 3rem;
+        height: 3rem;
         border-radius: 50%;
         background-color: #C11B8F;
         position: absolute;
         margin-left: 1px;
-        margin-top: 28rem;
+        margin-top: 20rem;
     }
     .circle-y{
         width: 2rem;
@@ -772,8 +772,8 @@ footer h5{
         border-radius: 50%;
         background-color:#E8B03A;
         position: absolute;
-        margin-left: 1px;
-        margin-top: 50rem;
+        margin-left: 12rem;
+        margin-top: 20rem;
     }
     
     .circle-g{
