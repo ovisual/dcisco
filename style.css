@@ -715,7 +715,7 @@ footer h5{
         font-style: normal;
         font-size: 11px;
         text-align: center;
-        margin-left: 0;
+        margin-left: 10px;
         padding:0;
         
 
@@ -979,9 +979,8 @@ footer h5{
         
     }
     .testimonials{
-        padding: 0;
+        padding: 0 10px;
         margin: 1rem 0;
-        padding-left: 10px;
         background-color:#f1eef6;
     
     }
