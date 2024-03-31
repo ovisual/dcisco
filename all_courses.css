@@ -99,6 +99,125 @@ header .headerleft p{
 }
 
 @media only screen and (max-width:600px){
+    .container{
+        height: fit-content;
+    }
+    .container .cyber{
+        background-color: white;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header{
+        display: flex;
+        height: fit-content;
+        gap: 2px;
+    }
+    .headerright{
+        margin-top: 2rem;
+    }
+    .headerleft{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    header .headerleft p{
+        margin-left: 0;
+        width: 750px;
+    }
+    
+    .headerright button{
+        /* background-color: white; */
+        color: #4800BD;
+        font-size: 14px;
+        border-radius: 23px;
+        padding: 12px;
+        width: 130px;
+        
+        
+    }
+    .headerright button a{
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .each_course{
+    }
+    
+    .each_course .left{
+        display: flex;
+        flex-direction: column;
+        gap: 0.1rem;
+        padding: 10px;
+        width: 100%;
+        margin: 0;
+
+    }
+    .each_course .left img{
+        width: 100%;
+        margin: 0;
+        object-fit: cover;
+    }
+    .each_course .right{
+        display: flex;
+        flex-direction: column;
+        
+        padding: 10px;
+        border: 1px solid grey;
+        border-radius: 20px;
+        height: fit-content;
+        width: 100%;
+        margin-top: 2rem;
+        margin: 2rem 0;
+    }
+    
+    .each_course .right .prices{
+        font-weight: 500;
+    
+    }
+    .each_course .right span{
+        font-size: 20px;
+    }
+    .each_course .right .course_info{
+        color: #AD47B2;
+        line-height: 30px;
+    }
+    
+    .each_course .headerright button{
+        background-color: #AD47B2;
+        border: none;
+        padding: 10px;
+    }
+    .each_course .headerright button a{
+        color: white;
+        text-decoration: none;
+    }
+    .each_course .left h4{
+        margin-top: 20px;
+        font-size: 18px;
+        font-family: "Poppins";
+    }
+    
+    .tags .btns{
+        display: flex;
+        gap: 23px;
+        margin-top: 10px;
+    
+    }
+    .tags .btns button{
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid rgb(128, 123, 123);
+    }
+
+    .each_course h4, p{
+        width: 100%;
+        margin: 1rem 0;
+    }
+    
+
     
 }
 
