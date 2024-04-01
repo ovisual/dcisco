@@ -158,14 +158,15 @@ form button{
         font-size: 13px;
         font-weight: 500;
     }
-    .form-container input{
-        width: 120%;
+    .form-container input
+     {
+        width: 150%;
         border-radius: 10px;
         padding: 11px;
         border: 0.6px solid rgb(202, 194, 194);
     }
     .form-container textarea{
-        width: 100%;
+        width: 150%;
         border-radius: 10px;
         padding: 20px;
         border: 0.6px solid rgb(202, 194, 194);
@@ -188,7 +189,7 @@ form button{
         padding: 10px;
         margin-left: 10px;
         justify-content: center;
-        width: 50%;
+        width: 60%;
         /* padding-top: 19px;
         padding-bottom: -19px; */
         border-radius: 30px;
