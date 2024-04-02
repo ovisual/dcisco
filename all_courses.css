@@ -132,7 +132,8 @@ header .headerleft p{
     }
     header .headerleft p{
         margin-left: 0;
-        width: 750px;
+        width: 100%;
+        font-size: 25px;
     }
     
     .headerright button{
