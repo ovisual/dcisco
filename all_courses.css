@@ -117,6 +117,8 @@ header .headerleft p{
         display: flex;
         height: fit-content;
         gap: 2px;
+        justify-content: center;
+        align-items: center;
     }
     .headerright{
         margin-top: 2rem;
@@ -136,10 +138,11 @@ header .headerleft p{
     .headerright button{
         /* background-color: white; */
         color: #4800BD;
-        font-size: 14px;
-        border-radius: 23px;
-        padding: 12px;
-        width: 130px;
+        font-size: 11px;
+        border-radius: 13px;
+        padding: 9px;
+        width: 100px;
+       
         
         
     }
@@ -220,7 +223,14 @@ header .headerleft p{
         width: 100%;
         margin: 1rem 0;
     }
-    
+
+    .course{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+        margin: 0 13px;
+    }
 
     
 }
