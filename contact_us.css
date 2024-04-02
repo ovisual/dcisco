@@ -158,8 +158,9 @@ form button{
         font-size: 13px;
         font-weight: 500;
     }
-    .form-container input{
-        width: 120%;
+    .form-container input
+     {
+        width: 100%;
         border-radius: 10px;
         padding: 11px;
         border: 0.6px solid rgb(202, 194, 194);
@@ -177,9 +178,9 @@ form button{
         box-shadow: 0 7px 8px rgba(57, 55, 55, 0.1);
     
         max-width: 100%;
-        width: 90%;
+        width: 100%;
         margin: 0 5px;
-        padding: 10px;
+        padding: 25px;
         padding-bottom: 0;
         border-radius: 20px;
     }
@@ -188,7 +189,7 @@ form button{
         padding: 10px;
         margin-left: 10px;
         justify-content: center;
-        width: 50%;
+        width: 60%;
         /* padding-top: 19px;
         padding-bottom: -19px; */
         border-radius: 30px;

@@ -49,6 +49,10 @@ header .headerleft p{
     gap: 0.1rem;
     padding: 30px;
 }
+.each_course .left img{
+    height: 100%;
+    border-radius: 20px;
+}
 .each_course .right{
     display: flex;
     flex-direction: column;
