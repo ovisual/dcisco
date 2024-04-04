@@ -18,7 +18,7 @@ close.addEventListener("click", () => {
     close.style.display = "none";
 });
 
-dropdown.addEventListener('click', function(event) {
+catlink.addEventListener('click', function(event) {
     event.preventDefault(); // Prevents the default behavior of the <a> tag
     dropdown_menu.style.display = (dropdown_menu.style.display !== "flex") ? "flex" : "none";
 });

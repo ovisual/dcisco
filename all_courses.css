@@ -90,6 +90,14 @@ header .headerleft p{
     font-family: "Poppins";
 }
 
+.course{
+    background-color: white;
+
+}
+.course  p{
+    padding: 10px;
+}
+
 .tags .btns{
     display: flex;
     gap: 23px;
