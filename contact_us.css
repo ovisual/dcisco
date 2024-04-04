@@ -106,6 +106,10 @@ form button{
     footer{
         margin-top: 0;
     }
+
+    .container{
+        width: 100%;
+    }
     .container h1{
     background-color: #4800BD;
     border-radius: 20px;
@@ -134,11 +138,13 @@ form button{
         align-items: center;
         text-align: center;
         font-size: 20px;
+        width: 100%;
     }
     .contact_us h3{
         text-align: center;
-        padding: 20px;
-        font-size: 23px;
+        padding: 19px;
+        font-size: 20px;
+        width: 70%;
     }
     
     .form-container {

@@ -625,7 +625,7 @@ footer h5{
         padding: 20px 40px;
         top: 0;
         margin: 0.1rem 40px;
-        margin-right: 60%;
+        margin-right: 50%;
         z-index: 1;
         width: max-content;
         overflow: hidden;
@@ -642,7 +642,7 @@ footer h5{
         gap: 10px;
         width: max-content;
         z-index: 0;
-        margin-left: -10%
+        margin-left: -5%
         ;
     }
     ul .dropdown-menu a{

@@ -91,7 +91,7 @@ header .headerleft p{
 }
 
 .course{
-    background-color: white;
+    background-color: rgb(251, 247, 248);
 
 }
 .course  p{
@@ -235,7 +235,10 @@ header .headerleft p{
 
     .course{
         width: 100%;
+        background-color: rgb(251, 247, 248);
     }
+    
+    
     .footer{
         width: 100%;
         margin: 0 13px;
