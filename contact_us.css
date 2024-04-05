@@ -106,6 +106,10 @@ form button{
     footer{
         margin-top: 0;
     }
+
+    .container{
+        width: 100%;
+    }
     .container h1{
     background-color: #4800BD;
     border-radius: 20px;
@@ -129,16 +133,23 @@ form button{
     .contacts{
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 14px;
         justify-content: center;
         align-items: center;
         text-align: center;
-        font-size: 20px;
+        font-size: 12px;
+        width: 100%;
     }
     .contact_us h3{
         text-align: center;
-        padding: 20px;
-        font-size: 23px;
+        padding: 1px;
+        font-size: 19px;
+        width: 70%;
+    }
+    .contact_us h4{
+        margin-right: 3rem;
+        font-size: 20px;
+        font-family: "Poppins";
     }
     
     .form-container {

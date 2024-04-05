@@ -49,6 +49,10 @@ header .headerleft p{
     gap: 0.1rem;
     padding: 30px;
 }
+.each_course .left img{
+    height: 100%;
+    border-radius: 20px;
+}
 .each_course .right{
     display: flex;
     flex-direction: column;
@@ -86,6 +90,14 @@ header .headerleft p{
     font-family: "Poppins";
 }
 
+.course{
+    background-color: rgb(251, 247, 248);
+
+}
+.course  p{
+    padding: 10px;
+}
+
 .tags .btns{
     display: flex;
     gap: 23px;
@@ -113,6 +125,8 @@ header .headerleft p{
         display: flex;
         height: fit-content;
         gap: 2px;
+        justify-content: center;
+        align-items: center;
     }
     .headerright{
         margin-top: 2rem;
@@ -126,16 +140,18 @@ header .headerleft p{
     }
     header .headerleft p{
         margin-left: 0;
-        width: 750px;
+        width: 100%;
+        font-size: 25px;
     }
     
     .headerright button{
         /* background-color: white; */
         color: #4800BD;
-        font-size: 14px;
-        border-radius: 23px;
-        padding: 12px;
-        width: 130px;
+        font-size: 11px;
+        border-radius: 13px;
+        padding: 9px;
+        width: 100px;
+       
         
         
     }
@@ -156,7 +172,7 @@ header .headerleft p{
 
     }
     .each_course .left img{
-        width: 100%;
+        width: 95%;
         margin: 0;
         object-fit: cover;
     }
@@ -168,7 +184,7 @@ header .headerleft p{
         border: 1px solid grey;
         border-radius: 20px;
         height: fit-content;
-        width: 100%;
+        width: 95%;
         margin-top: 2rem;
         margin: 2rem 0;
     }
@@ -216,7 +232,17 @@ header .headerleft p{
         width: 100%;
         margin: 1rem 0;
     }
+
+    .course{
+        width: 100%;
+        background-color: rgb(251, 247, 248);
+    }
     
+    
+    .footer{
+        width: 100%;
+        margin: 0 13px;
+    }
 
     
 }
