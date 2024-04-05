@@ -1155,8 +1155,10 @@ footer h5{
     }
     
     .newsletter .circle-p{
-        margin-left: -400px;
+        margin-left: 0;
+        padding-left: -2rem;
         margin-top: -5rem;
+        display: none;
     }
     .newsletter .circle-g{
         margin-left: 1px;
@@ -1164,7 +1166,8 @@ footer h5{
     }
     .newsletter .circle-y{
         margin-top: -7rem;
-        margin-left: 500px;
+        margin-left: 0;
+        display: none;
 
     }
     
