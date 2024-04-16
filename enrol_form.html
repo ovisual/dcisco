@@ -13,6 +13,72 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link rel="stylesheet" href="contact_us.css">
 
+<style>
+    .enroll{
+        background-color: #fbf8fa;
+        height: fit-content;
+        padding: 2rem;
+        margin-top: -6rem;
+        width: 100%;
+
+        
+    }
+      .enroll p{
+        width: 500px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .enroll h3, p{
+        text-align: center;
+    }
+    footer{
+        margin-top: 0;
+    }
+
+    .form-field select{
+        width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    border: 0.6px solid rgb(202, 194, 194);
+    resize: none;
+    background-color: white;
+    }
+
+    .form-field button{
+        margin-top: 2.5rem;
+    }
+
+    @media only screen and (max-width:600px){
+
+        .enroll{
+        background-color: #fbf8fa;
+        height: fit-content;
+        padding: 10px;
+        margin-top: 0;
+
+        
+    }
+        .form-field select{
+        width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    border: 0.6px solid rgb(202, 194, 194);
+    resize: none;
+    }
+    .enroll p{
+        width: 100%;
+        text-align: center;
+        margin: 1rem auto;
+        font-size: 12px;
+    }
+    .enroll h3, p{
+        text-align: center;
+    }
+
+    }
+  
+</style>
+
 
 
 
@@ -48,54 +114,70 @@
             <div class="close-icon">&#10006;</div>
         </div>
     </nav>
-    <h1>Contact Us</h1>
+    
 
     
    </div>
-   <section class="contact_us">
-    <div class="contacts">
-        <h3><img src="images/mail.png" alt="">&nbsp;info@dcsicoacademy.com <br>cisconetworkingacademy.ict@gmail.com</h3>
-
-        <h3><img src="images/phone.png" alt="">&nbsp;+234 813 394 4867</h3>
-        <h3>+234 812 356 6881</h3>
-    </div>
-    <h3>Get In Touch With Us</h3>
-    <form action="#" >
+  <section class="enroll">
+    <h3>Enrollment Form</h3>
+    <p>Please fill the form below to enroll for your preferred course. One form fill for one course, if you interested in another course, kindly fill the form again</p>
+    <form action="#" method="POST">
         <div class="form-container">
             <div class="form-field">
                 <label for="full-name">Full Name*</label> <br> <br>
-                <input type="text" id="full-name" placeholder="John David">
+                <input type="text" id="full-name" name="fullName" placeholder="John David" required>
             </div>
             <div class="form-field">
                 <label for="email">Your Email*</label><br> <br>
-                <input type="text" id="email" placeholder="example@yourmail.com">
+                <input type="email" id="email" name="email" placeholder="example@yourmail.com" required>
             </div>
             <div class="form-field">
-                <label for="company">Company*</label><br> <br>
-                <input type="text" id="company" placeholder="Your Company Name Here">
+                <label for="phone">Phone Number (WhatsApp)*</label><br> <br>
+                <input type="text" id="phone" name="phone" placeholder="WhatsApp number" required>
             </div>
             <div class="form-field">
-                <label for="subject">Subject*</label><br> <br>
-                <input type="text" id="subject" placeholder="How can we help">
+                <label for="dob">Date of Birth*</label><br> <br>
+                <input type="date" id="dob" name="dob" required>
             </div>
             <div class="form-field">
-                <label for="message">Message*</label><br> <br>
-                <textarea id="message" rows="10" placeholder="Hello there, I would love to talk about how to"></textarea>
+                <label for="gender">Gender*</label><br> <br>
+                <select id="gender" name="gender" required>
+                    <option value="">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
             </div>
+            <div class="form-field">
+                <label for="preferred-course">Preferred Course*</label><br> <br>
+                <select id="preferred-course" name="preferredCourse" required>
+                    <option value="">Select Preferred Course</option>
+                    <option value="course1">Networking</option>
+                    <option value="course2">Cybersecurity</option>
+                    <option value="course3">Programming</option>
+                    <option value="course3">Programming Infrastructure</option>
+                    <option value="course3">Digital Marketing</option>
 
-        </div>
-        
-        <div class="form-field">
-            <button type="submit">Send Message</button>
+
+                </select>
+            </div>
+            <div class="form-field">
+                <label for="preferred-mode">Preferred Mode*</label><br> <br>
+                <select id="preferred-mode" name="preferredMode" required>
+                    <option value="">Select Preferred Mode</option>
+                    <option value="online">Virtual</option>
+                    <option value="offline">Physical</option>
+                </select>
+            </div>
+            <div class="form-field">
+                <button type="submit">Send Message</button>
+            </div>
         </div>
     </form>
-   </section>
-   <div class="address">
-    <h2>Office Address:</h2>
-    <p>12, Sabiu Ajose Cresent, Off Bode Thomas Street, Surulere, Lagos </p>
-   </div>
 
-
+  </section>
+   
+  
 
 
 <footer>

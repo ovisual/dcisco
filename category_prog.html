@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dcisco website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="services.css">
+    <!-- <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<style>
+    footer{
+        margin-top: 10rem;
+    }
+    .container h1{
+    background-color: #4800BD;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem;
+    font-size: 40px;
+    align-items: center;
+    color: white;
+}
+.about_us{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+    margin-left: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.about_us h3{
+    font-size: 20px;
+    color: purple;
+}
+.get_started{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: #ECE7F4;
+    padding: 2rem;
+    height: 100%;
+    margin-bottom: -10rem;
+}
+.get_started h1{
+    color: purple;
+
+}
+
+.featured_courses .courses .course a{
+    text-decoration: none;
+    background-color: rgb(133, 133, 240);
+    color: white;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    text-align: center;
+    justify-self: center;
+    margin-left: 25%;
+}
+@media only screen and (max-width:600px){
+    footer{
+        margin-top: 10rem;
+    }
+    .container h1{
+    background-color: #4800BD;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    align-items: center;
+    color: white;
+    width: 80%;
+}
+.about_us{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-left: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.about_us h3{
+    font-size: 20px;
+    color: purple;
+}
+.get_started{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: #ECE7F4;
+    padding: 2rem;
+    height: 100%;
+    margin-bottom: -10rem;
+}
+.get_started h1{
+    color: purple;
+
+}
+
+}
+</style>
+
+
+
+</head>
+<body>
+   <div class="container">
+    <nav>
+        <img src="images/logo.png" alt="">
+        <span></span>
+        <ul class="nav-links">
+            <!-- <li><a href="courses.html">Courses</a></li> -->
+            <li class="dd-list"><a class="cat-link" href="#">Course Categories<span class="dropdown">&#9662;</span></a>
+                <div class="dropdown-menu">
+                    <a href="course_network.html">Networking</a>
+                    <a href="course_prog.html">Programming</a>
+                    <a href="course_prog_inf.html">Programming Infastructure</a>
+                    <a href="course_op_system.html">OS and Information Tech.</a>
+                    <a href="course_cyber.html">Cyber Security</a>
+                    <a href="course_digital.html">Digital Marketing</a>
+
+                </div>
+            </li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="success_stories.html">Success Stories<a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+        <div class="switch">
+            <div>
+                <img class="burger" src="images/burger.png" alt="">
+
+            </div>
+            <div class="close-icon">&#10006;</div>
+        </div>
+    </nav>
+    <h1>Programming</h1>
+
+    
+   </div>
+
+   <section class="featured_courses">
+   
+    <div class="courses">
+        <div class="course1 course">
+            <img src="images/prog_img.jpg" alt="">
+            <h3>Python Essentials 1
+            </h3>
+            <p>This course teaches in-demand skills including how 
+                to design, develop, and improve computer programs 
+                using Python.</p>
+            <!-- <div class="footer">
+                <p>Cybersecurity</p>
+                <p class="int">
+                    <span>
+                        <img src="images/level_icon.png" alt="">
+                    </span>
+                    &nbsp;
+                    
+                    Intermediates
+                </p>
+            </div> -->
+            <a href="enrol_form.html">Enroll Now</a>
+        </div>
+        <div class="course2 course">
+            <img src="images/prog_img.jpg" alt="">
+            <h3>PCAP: Programming Essentials in Python Programming
+            </h3>
+            <p>Designed as easy to understand and beginner friendly course focusing on various data collections, 
+                manipulation tools, logic and bit operations and 
+                creating basic REST APIs.</p>
+            <!-- <div class="footer">
+                <p>Networking</p>
+                <p class="int">
+                    <span>
+                        <img src="images/level_icon.png" alt="">
+                    </span>
+                    &nbsp;
+                    
+                    Intermediates
+                </p>
+            </div> -->
+            <a href="enrol_form.html">Enroll Now</a>
+
+        </div>
+        <div class="course3 course">
+            <img src="images/prog_img.jpg" alt="">
+            <h3>JavaScript Essentials 1 (JSE) Programming
+
+                 </h3>
+            <p>Learn how interactive web and mobile apps are 
+                created with JavaScript programming and how to 
+                design, write, debug, and run your own programs! 
+                No prior programming knowledge is required.</p>
+            <!-- <div class="footer">
+                <p>OS/info Tech</p>
+                <p class="int">
+                    <span>
+                        <img src="images/level_icon.png" alt="">
+                    </span>
+                    &nbsp;
+                    
+                    Intermediates
+                </p>
+            </div> -->
+            <a href="enrol_form.html">Enroll Now</a>
+
+        </div>
+        <div class="course4 course">
+            <img src="images/prog_img.jpg" alt="">
+            <h3>CLA: Programming Essentials in C Programming
+            </h3>
+            <p>This beginner course introduces the the universal 
+                concepts of computer programming using the C 
+                language, and teaches the syntax, semantics, and 
+                data types of the C language</p>
+            <!-- <div class="footer">
+                <p>Programming</p>
+                <p class="int">
+                    <span>
+                        <img src="images/level_icon.png" alt="">
+                    </span>
+                    &nbsp;
+                    
+                    Intermediates
+                </p>
+            </div> -->
+            <a href="enrol_form.html">Enroll Now</a>
+
+        </div>
+        <div class="course5 course">
+            <img src="images/prog_img.jpg" alt="">
+            <h3>CLP: Advanced Programming in C 
+
+            </h3>
+            <p>This advanced course teaches intermediate to 
+                advanced coding such as C handling variable 
+                number of parameters (<stdarg.h>), low level IO 
+                (<unistd.h>), memory and strings (<string.h> et al.), 
+                processes and threads, floats and ints (<math.h>, 
+                <fenv.h>, <inttypes.h> et al), and network sockets. </p>
+            <!-- <div class="footer">
+                <p>Prog Infast.</p>
+                <p class="int">
+                    <span>
+                        <img src="images/level_icon.png" alt="">
+                    </span>
+                    &nbsp;
+                    
+                    Intermediates
+                </p>
+            </div> -->
+            <a href="enrol_form.html">Enroll Now</a>
+
+        </div>
+        <div class="course6 course">
+            <img src="images/prog_img.jpg" alt="">
+            <h3>CPA: Programming Essentials in C++
+            </h3>
+            <p>This beginner course introduces the basics of 
+                programming in the C++ language and the 
+                fundamental notions and techniques used in 
+                object-oriented programming.</p>
+            <!-- <div class="footer">
+                <p>Digt. Marketing</p>
+                <p class="int">
+                    <span>
+                        <img src="images/level_icon.png" alt="">
+                    </span>
+                    &nbsp;
+                    
+                    Intermediates
+                </p>
+            </div> -->
+            <a href="enrol_form.html">Enroll Now</a>
+
+        </div>
+    </div>
+</section>
+
+ 
+
+
+
+<footer>
+    <div class="first">
+        <img src="images/logo.png" alt="">
+        <p>DCisco Academy is a leading provider of comprehensive technology training solutions and digital services, empowering individuals and businesses to thrive in the ever-evolving tech landscape. With a team of certified instructors, skilled developers, and industry experts, we offer a wide range of programs and services tailored to meet the specific needs of our clients.
+        </p>
+        <h3>Follow Us</h3>
+        <div class="socials">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+
+            <i class="fab fa-x-twitter"></i>
+        </div>
+
+    </div>
+    <div class="second">
+        <h5>Links</h5>
+        <a href="#">Categories</a>
+        <a href="#">Courses</a>
+        <a href="#">Services</a>
+            <a href="#">Success Stories<a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+
+    </div>
+    <div class="third">
+        <h5>Categories</h5>
+        <a href="#">Networking</a>
+        <a href="#">Programming</a>
+        <a href="#">Programming Infastructure</a>
+        <a href="#">Operating System and Information Technology</a>
+        <a href="#">Cyber Security</a>
+        <a href="#">Digital Marketing</a>
+
+    </div>
+
+
+</footer>
+
+
+
+<script src="app.js"></script>    
+</body>
+</html>
