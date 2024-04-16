@@ -976,7 +976,7 @@ footer h5{
         margin-top: 34rem;
     }
     .featured_courses{
-        padding:15px;
+        padding:0;
         padding-left: 0;
         margin-top: 2rem;
         width: 100%;
@@ -1000,7 +1000,7 @@ footer h5{
         margin: 1rem 0;
         overflow: hidden;
         padding: 1rem 0;
-        margin-left: 30px;
+        margin-left: 10px;
 
         
     
@@ -1010,8 +1010,8 @@ footer h5{
         border-radius: 20px;
         box-shadow: 1px 2px 3px rgba(138, 130, 130, 0.9);
     
-        max-width: 100%; /* Set the maximum width of the container */
-        width: 100%;
+         /* Set the maximum width of the container */
+        width: 90%;
         margin: 1rem 0;
     
     }
@@ -1027,7 +1027,8 @@ footer h5{
         font-size: 14px;
     }
     .featured_courses  .courses .course p{
-        font-size: 13px;
+        font-size: 11px;
+        margin-bottom: 2rem;
     }
 
     .featured_courses .courses .course a{
@@ -1035,13 +1036,13 @@ footer h5{
         background-color: rgb(79, 79, 105);
         color: white;
         border-radius: 10px;
-        padding: 0.5rem 1rem;
+        padding: 0.9rem 1.8rem;
         text-align: center;
         justify-self: center;
         margin-left: 25%;
         position: absolute;
         top: 94%;
-        left: 10%;
+        left: 2.8%;
         transition: 0.5s;
         font-size: smaller;
     }
@@ -1242,7 +1243,7 @@ footer h5{
     
     }
     .upcoming_trainings h1{
-        font-size: 35px;
+        font-size: 25px;
         color: #C11B8F;
     
     }
@@ -1278,6 +1279,7 @@ footer h5{
     }
     .training p{
         font-size: 13px;
+        margin-bottom: 2rem;
     }
     .training button{
         font-size: 15px;
@@ -1295,8 +1297,8 @@ footer h5{
 
    .whatsapp-icon {
         position: fixed;
-        bottom: 50%; /* Adjust as needed */
-        right: 90px; /* Adjust as needed */
+        bottom: 10%; /* Adjust as needed */
+        right: 10%; /* Adjust as needed */
         z-index: 9999;
         cursor: pointer;
         width: 20%;
@@ -1313,7 +1315,7 @@ footer h5{
    
 
     .our_partners_clients{
-        padding: 1rem;
+        padding: 1rem 0;
         background-color: rgb(248, 249, 249);
         display: flex;
         flex-direction: column;
@@ -1322,6 +1324,7 @@ footer h5{
         gap: 1rem;
         overflow: hidden;
         width: 100%;
+        margin-top: 5rem;
     
     }
     
@@ -1330,17 +1333,28 @@ footer h5{
         color: #C11B8F;
         text-align: center;
         margin-bottom: 0;
+        width: 90%;
     
     }
     
     .our_partners_clients .partners{
         width: 90%;
+        margin: 1rem 0;
+        overflow: hidden;
+    }
+
+    .our_partners_clients .clients{
+        width: 90%;
+        margin: 1rem 0;
+        overflow: hidden;
+
     }
     .our_partners_clients .partners .partners_icons {
         display: flex;
         overflow:-moz-hidden-unscrollable;
-        width: 40%; /* Adjust as needed */
+        width: 50%; /* Adjust as needed */
         gap: 5rem;
+    
     }
     
     .our_partners_clients .partners .partners_icons img {
@@ -1349,6 +1363,7 @@ footer h5{
         transition: transform 0.5s ease;
         animation: slideImage 25s linear infinite; /* Adjust duration as needed */
         object-fit: contain;
+        overflow: hidden;
     
     }
     
