@@ -976,10 +976,12 @@ footer h5{
         margin-top: 34rem;
     }
     .featured_courses{
-        padding:10px;
+        padding:15px;
         padding-left: 0;
         margin-top: 2rem;
         width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     
     }
     .featured_courses h1{
@@ -998,6 +1000,8 @@ footer h5{
         margin: 1rem 0;
         overflow: hidden;
         padding: 1rem 0;
+        margin-left: 30px;
+
         
     
     }
@@ -1007,7 +1011,7 @@ footer h5{
         box-shadow: 1px 2px 3px rgba(138, 130, 130, 0.9);
     
         max-width: 100%; /* Set the maximum width of the container */
-        width: 90%;
+        width: 100%;
         margin: 1rem 0;
     
     }
@@ -1024,6 +1028,27 @@ footer h5{
     }
     .featured_courses  .courses .course p{
         font-size: 13px;
+    }
+
+    .featured_courses .courses .course a{
+        text-decoration: none;
+        background-color: rgb(79, 79, 105);
+        color: white;
+        border-radius: 10px;
+        padding: 0.5rem 1rem;
+        text-align: center;
+        justify-self: center;
+        margin-left: 25%;
+        position: absolute;
+        top: 94%;
+        left: 10%;
+        transition: 0.5s;
+        font-size: smaller;
+    }
+    .featured_courses .courses .course a:hover{
+        background-color: rgb(202, 202, 223);
+        color: #28262d;
+    
     }
     
     
@@ -1080,7 +1105,7 @@ footer h5{
     }
     
     .why_choose_us h1{
-        font-size: 35px;
+        font-size: 25px;
         color: #C11B8F;
         padding: 1rem;
     }
@@ -1261,7 +1286,7 @@ footer h5{
     width: 100px;
     height: 40px;
     color: #C11B8F;
-    left: 38%;
+    left: 31%;
     bottom: -5%;
     position:absolute;
     cursor: pointer;
@@ -1283,15 +1308,77 @@ footer h5{
         width: 100%;
       }
 
-      .our_partners_clients h1 {
-        font-size: 1.5rem; /* Decrease font size for smaller screens */
+     
+
+   
+
+    .our_partners_clients{
+        padding: 1rem;
+        background-color: rgb(248, 249, 249);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        overflow: hidden;
+        width: 100%;
+    
+    }
+    
+    .our_partners_clients h1{
+        font-size: 35px;
+        color: #C11B8F;
+        text-align: center;
+        margin-bottom: 0;
+    
+    }
+    
+    .our_partners_clients .partners{
+        width: 90%;
+    }
+    .our_partners_clients .partners .partners_icons {
+        display: flex;
+        overflow:-moz-hidden-unscrollable;
+        width: 40%; /* Adjust as needed */
+        gap: 5rem;
+    }
+    
+    .our_partners_clients .partners .partners_icons img {
+        flex-shrink: 0;
+        width: 50%;
+        transition: transform 0.5s ease;
+        animation: slideImage 25s linear infinite; /* Adjust duration as needed */
+        object-fit: contain;
+    
+    }
+    
+    .our_partners_clients .clients .client_icons{
+        display: flex;
+        overflow:-moz-hidden-unscrollable;
+        width: 40%; 
+        gap: 3rem;
+        margin-left: -40rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    
+    }
+    .our_partners_clients .clients .client_icons img{
+        height: auto;
+        flex-shrink: 0;
+        width: 30%;
+        transition: transform 0.3s ease;
+        animation: slideImage2 20s linear infinite; /* Adjust duration as needed */
+        object-fit: contain;
     }
 
     .our_partners_clients .partners .partners_icons img,
     .our_partners_clients .clients .client_icons img {
         width: 100%; /* Full width for smaller screens */
     }
-      
+    .our_partners_clients h1 {
+        font-size: 1.5rem; /* Decrease font size for smaller screens */
+    }
+   
       .whatsapp-icon img {
         width: 20%; /* Adjust as needed */
         height: auto;
@@ -1315,16 +1402,16 @@ footer h5{
         font-size: 10px;
         font-weight: 400;
         margin-top: 8px;
-        width: 300px;
+        width: 90%;
     }
     .newsletter input{
         border: none;
         padding: 13px;
         height: 15px;
-        width: 200px;
+        width: 140px;
         border-radius: 13px 0px 0px 13px;
         font-size: 13px;
-        margin-left: 10%;
+        margin-left: 4%;
 
     
     }
@@ -1341,7 +1428,8 @@ footer h5{
         background-color: #C11B8F;
         text-decoration: none;
         color: white;
-        width: 90px;
+        width: 60px;
+        font-size: 13px;
     }
     .subscribe{
         display: inline-flex; /* Use inline-flex to make them appear in the same line */
