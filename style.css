@@ -1042,8 +1042,7 @@ footer h5{
         margin-left: 25%;
         position: absolute;
         top: 94%;
-        left: 2.8%;
-        transition: 0.5s;
+        left: 4.8%;
         font-size: smaller;
     }
     .featured_courses .courses .course a:hover{
@@ -1240,6 +1239,7 @@ footer h5{
     .upcoming_trainings{
         padding: 10px;
         padding-left: 10px;
+        margin-top: 4rem;
     
     }
     .upcoming_trainings h1{
@@ -1401,7 +1401,6 @@ footer h5{
       
     .newsletter{
         padding: 30px;
-        padding-left: 1px;
         background-color:#f1eef6;
         display: flex;
         flex-direction: column;
@@ -1412,18 +1411,19 @@ footer h5{
     .newsletter h2{
         font-size: 22px;
         font-weight: 600;
+        width: 100%;
     }
     .newsletter p{
         font-size: 10px;
         font-weight: 400;
         margin-top: 8px;
-        width: 90%;
+        width: 100%;
     }
     .newsletter input{
         border: none;
         padding: 13px;
         height: 15px;
-        width: 140px;
+        width: 150px;
         border-radius: 13px 0px 0px 13px;
         font-size: 13px;
         margin-left: 4%;
@@ -1443,7 +1443,7 @@ footer h5{
         background-color: #C11B8F;
         text-decoration: none;
         color: white;
-        width: 60px;
+        width: 66px;
         font-size: 13px;
     }
     .subscribe{
