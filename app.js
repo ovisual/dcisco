@@ -33,7 +33,7 @@ var landingContent = [
   var currentIndex = 0; // Variable to track the current index in the landingContent array
 
   window.onload = function() {
-    setInterval(changeLandingContent, 3000); // Call changeLandingContent function every 10 seconds
+    setInterval(changeLandingContent, 10000); // Call changeLandingContent function every 10 seconds
   };
 
   function changeLandingContent() {
