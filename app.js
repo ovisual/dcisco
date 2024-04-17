@@ -27,7 +27,7 @@ catlink.addEventListener('click', function(event) {
 
 var landingContent = [
     { imagePath: "images/man.png", text1: "Master High Paying Tech Courses and Advance Your Career", text2:" Comprehensive training programs for Cisco certifications and cutting-edge tech skills" },
-    { imagePath: "images/hero2.png", text1: "We create innovation through Digital Transformation", text2: "DCisco Academy is a leading provider of comprehensive technology training solutions and digital services, empowering individuals and businesses to thrive in the ever-evolving tech landscape. With a team of certified instructors, skilled developers, and industry experts, we offer a wide range of programs and services tailored to meet the specific needs of our clients."}
+    { imagePath: "images/hero2.png", text1: "We Create Innovation Through Digital Transformation", text2: "DCisco Academy is a leading provider of comprehensive technology training solutions and digital services, empowering individuals and businesses to thrive in the ever-evolving tech landscape. With a team of certified instructors, skilled developers, and industry experts, we offer a wide range of programs and services tailored to meet the specific needs of our clients."}
   ];
 
   var currentIndex = 0; // Variable to track the current index in the landingContent array
