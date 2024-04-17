@@ -121,6 +121,9 @@
     footer{
         margin-top: 10rem;
     }
+
+    
+   
     .container h1{
     background-color: #4800BD;
     border-radius: 20px;
@@ -132,21 +135,7 @@
     color: white;
     width: 80%;
 }
-.about_us{
-    display: flex;
-    flex-direction: column;
-    margin-top: 0;
-    margin-left: 0;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
 
-.about_us h3{
-    font-size: 20px;
-    color: purple;
-    text-align: center;
-}
 .get_started{
     display: flex;
     flex-direction: column;
@@ -162,7 +151,7 @@
 
 }
 
-.about_us{
+/* .about_us{
     display: grid;
     margin-top: 6rem;
     padding: 1rem;
@@ -171,7 +160,26 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+} */
+
+.about_us{
+    display: flex;
+    flex-direction: column;
+  
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.about_us h3{
+    font-size: 20px;
+    color: purple;
+    text-align: center;
+    width: 100%;
 }
 .about_us .hp{
     text-align: center;
@@ -179,25 +187,38 @@
 }
 
 .about_us p{
-    width: 80%;
+    width: 100%;
 }
 
 .about_us img{
+    object-fit: cover;
+    left: 0;
+    width: 80%;
+    height: auto;
 }
 
 .about_us .about{
     display: flex;
     flex-direction: column;
     gap: 5rem;
-    margin-left: 15%;
+    width: 80%;
 
 }
 .about_us .about .abt{
     display: grid;
     grid-template-columns: auto;
     gap: 2rem;
+    width: 80%;
 
 
+}
+.about_us .about .abt .text p{
+    width: 100%;
+    text-align: center;
+
+}
+.about_us .about .abt .text{
+    width: 100%;
 }
 .about_us .about .about2{
     display: flex;
@@ -205,15 +226,14 @@
             gap: 20px;
             position: relative;
             width: 90%;
-            margin-top: 17rem;
+            margin-top: 24rem;
 
 
 }
 .about_us .about .about2 img
 {
-    width: 100%;
             position: absolute;
-            margin-top: -80%;
+            margin-top: -180%;
             height: 50%;
             
 
@@ -224,7 +244,6 @@
             flex-direction: column;
             gap: 20px;
             position: relative;
-            width: 90%;
             margin-top: 0;
 
 
@@ -235,23 +254,14 @@
     align-items: center;
 
 }
-.about_us .about .abt .text{
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    width: 100%;
-}
+
 .about_us .about .abt .text h3{
     color: #4800BD;
     font-size: 22px;
     margin-left: 0;
     padding-left: 0;
 }
-.about_us .about .abt .text p{
-    font-size: 15px;
-    margin-left: 0;
-    text-align: left;
-}
+
 
 }
 </style>
