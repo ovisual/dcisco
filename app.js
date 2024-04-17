@@ -53,8 +53,16 @@ var landingContent = [
     // Toggle class for styling the second image differently
     if (currentIndex === 1) {
         landingImage.classList.add('second-image');
+        landingText1.classList.add('text1');
+        landingText2.classList.add('text2');
+
+
       } else {
         landingImage.classList.remove('second-image');
+        landingText1.classList.remove('text1');
+        landingText2.classList.remove('text2');
+
+
       }
   
 
