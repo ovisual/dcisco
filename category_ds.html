@@ -26,64 +26,87 @@
     align-items: center;
     color: white;
 }
-
-.stories{
-    margin: 6rem;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-
-
-}
-
-.stories .story{
-    margin: 1rem;
-}
-@media only screen and (max-width:600px){
-    footer{
-        margin-top: 1rem;
-    }
-    .container{
-        /* background-color: #B4239A; */
-        background-color:white;
-        height: max-content;
-        max-width: 100%;
-        width: 100%;
-        margin: 10px auto;
-        }
-
-        /* .container nav{
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        } */
-            
-        
-        .container h1{
-            background-color: #4800BD;
-            border-radius: 20px;
-            justify-content: center;
-            text-align: center;
-            margin: 20px 10px;
-            padding: 20px 0;
-            font-size: 20px;
-            align-items: center;
-            color: white;
-            width: 90%;
-        }
-
-
-.stories{
-    margin: 0;
+.about_us{
     display: flex;
     flex-direction: column;
+    margin-top: 7rem;
+    margin-left: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.about_us h3{
+    font-size: 20px;
+    color: purple;
+}
+.get_started{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: #ECE7F4;
+    padding: 2rem;
+    height: 100%;
+    margin-bottom: -10rem;
+}
+.get_started h1{
+    color: purple;
 
 }
 
-.stories .story{
-    margin: 2rem 0;
-    padding: 0 1rem;
+/* .featured_courses .courses .course a{
+    text-decoration: none;
+    background-color: rgb(133, 133, 240);
+    color: white;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    text-align: center;
+    justify-self: center;
+    margin-left: 25%;
+} */
+@media only screen and (max-width:600px){
+    footer{
+        margin-top: 10rem;
+    }
+    .container h1{
+    background-color: #4800BD;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    align-items: center;
+    color: white;
+    width: 80%;
 }
+.about_us{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-left: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.about_us h3{
+    font-size: 20px;
+    color: purple;
+}
+.get_started{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: #ECE7F4;
+    padding: 2rem;
+    height: 100%;
+    margin-bottom: -10rem;
+}
+.get_started h1{
+    color: purple;
+
+}
+
 }
 </style>
 
@@ -126,34 +149,59 @@
             <div class="close-icon">&#10006;</div>
         </div>
     </nav>
-    <h1>Success Stories</h1>
+    <h1>Data Science</h1>
 
     
    </div>
 
-   <section class="stories">
-    <div class="story story1">
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/vmA5vfuQrd0?si=UsJa1j8mISAbeXHt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   <section class="featured_courses">
+   
+    <div class="courses">
+        <div class="course1 course">
+            <img src="images/ds_img.jfif" alt="">
+            <h3>Introduction to Data Science</h3>
+            <p>This introductory course takes learners inside the 
+                world of data science. Students will learn the basics in 
+                the fields of data science, data analytics and data 
+                engineering.</p>
+            <!-- <div class="footer">
+                <p>Cybersecurity</p>
+                <p class="int">
+                    <span>
+                        <img src="images/level_icon.png" alt="">
+                    </span>
+                    &nbsp;
+                    
+                    Intermediates
+                </p>
+            </div> -->
+            <a href="enrol_form.html">Enroll Now</a>
+        </div>
+        <div class="course2 course">
+            <img src="images/ds_img.jfif" alt="">
+            <h3>Data Analytics Essentials 
+            </h3>
+            <p>The Data Analytics Essentials course teaches you the fundamental tools of a data analyst. You will learn to 
+                transform, organize, and visualize data with spreadsheet tools such as Excel. </p>
+            <!-- <div class="footer">
+                <p>Networking</p>
+                <p class="int">
+                    <span>
+                        <img src="images/level_icon.png" alt="">
+                    </span>
+                    &nbsp;
+                    
+                    Intermediates
+                </p>
+            </div> -->
+            <a href="enrol_form.html">Enroll Now</a>
 
+        </div>
+      
     </div>
-    <div class="story story2">
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/E9kDrlHMrec?si=HdIgQRe1Ma67lE_u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section>
 
-    </div>
-    <div class="story story3">
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/H72ZHK6ek8Y?si=oPCpp7KwZ0nGxzxG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-    </div>
-
-    <div class="story story4">
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/uVjInwP4Kys?si=of_GpRorbvbXPQMJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-    </div>
-
-
-
-    
-   </section>
+ 
 
 
 

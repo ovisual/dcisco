@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dcisco website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="services.css">
+    <!-- <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="contact_us.css">
+
+<style>
+    .enroll{
+        background-color: #fbf8fa;
+        height: fit-content;
+        padding: 2rem 0;
+        margin-top: -6rem;
+        width: 100%;
+
+        
+    }
+      .enroll p{
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .enroll h3, p{
+        text-align: center;
+    }
+    footer{
+        margin-top: 0;
+    }
+
+    .form-field select{
+        width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    border: 0.6px solid rgb(202, 194, 194);
+    resize: none;
+    background-color: white;
+    cursor: pointer;
+
+    }
+
+    .form-field button{
+        margin-top: 2.5rem;
+    }
+
+
+    .dropdown-options {
+    display: none;
+    max-height: 150px;
+    overflow-y: auto; /* Enable vertical scrollbar if necessary */
+    background-color: rgb(17, 6, 6);
+    color: aliceblue;
+    padding: 1rem;
+
+}
+
+.dropdown-toggle {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 19px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.dropdown-toggle:hover {
+    background-color: #e5e5e5;
+}
+
+.dropdown-options label {
+    display:block; /* Ensure checkboxes are inline */
+    flex-direction: column;
+
+}
+
+.dropdown-options input[type="checkbox"] {
+    display: inline; /* Ensure checkboxes are inline */
+    vertical-align: middle; /* Align checkboxes vertically with labels */
+    margin-left: 10rem;
+    padding-right: 5rem;
+
+}
+
+
+    @media only screen and (max-width:600px){
+
+        .enroll{
+        background-color: #fbf8fa;
+        height: fit-content;
+        padding: 10px;
+        margin-top: 0;
+
+        
+    }
+        .form-field select{
+        width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    border: 0.6px solid rgb(202, 194, 194);
+    resize: none;
+    }
+    .enroll p{
+        width: 100%;
+        text-align: center;
+        margin: 1rem auto;
+        font-size: 12px;
+    }
+    .enroll h3, p{
+        text-align: center;
+    }
+
+    }
+  
+</style>
+
+
+
+
+</head>
+<body>
+   <div class="container">
+    <nav>
+        <img src="images/logo.png" alt="">
+        <span></span>
+        <ul class="nav-links">
+             <!-- <li><a href="courses.html">Courses</a></li> -->
+             <li><a href="index.html">Home</a></li>
+
+            <li class="dd-list"><a class="cat-link" href="#">Course Categories<span class="dropdown">&#9662;</span></a>
+                <div class="dropdown-menu">
+                    <a href="category_cyb.html">Cyber Security</a>
+                    <a href="category_ds.html">Data Science</a>
+
+
+                    <a href="category_net.html">Networking</a>
+                    <a href="category_prog.html">Programming</a>
+                    <a href="category_prIn.html">Programming Infastructure</a>
+                    <a href="category_os.html">OS and Information Tech.</a>
+                    <a href="category_dig.html">Digital Marketing</a>
+                </div>
+            </li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="success_stories.html">Success Stories<a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+        <div class="switch">
+            <div>
+                <img class="burger" src="images/burger.png" alt="">
+
+            </div>
+            <div class="close-icon">&#10006;</div>
+        </div>
+    </nav>
+    
+
+    
+   </div>
+  <section class="enroll">
+    <h3>Enrollment Form</h3>
+    <p>Please fill the form below to enroll for your preferred course. One form fill for one course, if you interested in another course, kindly fill the form again</p>
+    <form action="#" method="POST">
+        <div class="form-container">
+            <div class="form-field">
+                <label for="full-name">Full Name*</label> <br> <br>
+                <input type="text" id="full-name" name="fullName" placeholder="John David" required>
+            </div>
+            <div class="form-field">
+                <label for="email">Your Email*</label><br> <br>
+                <input type="email" id="email" name="email" placeholder="example@yourmail.com" required>
+            </div>
+            <div class="form-field">
+                <label for="phone">Phone Number (WhatsApp)*</label><br> <br>
+                <input type="text" id="phone" name="phone" placeholder="WhatsApp number" required>
+            </div>
+            <!-- <div class="form-field">
+                <label for="dob">Date of Birth*</label><br> <br>
+                <input type="date" id="dob" name="dob" required>
+            </div> -->
+            <div class="form-field">
+                <label for="gender">Gender*</label><br> <br>
+                <select id="gender" name="gender" required>
+                    <option value="">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-field">
+                <label for="preferred-course">Preferred Course(s)*</label><br><br>
+                <div class="dropdown">
+                    <div class="dropdown-toggle" onclick="toggleDropdown()">Select Preferred Course(s)</div>
+                    <div id="dropdown-options" class="dropdown-options">
+                        <input type="checkbox" id="course1" name="preferredCourse" value="course1">
+                        <label for="course1">Networking Basics
+                        </label><br>
+                        <input type="checkbox" id="course2" name="preferredCourse" value="course2">
+                        <label for="course2">Networking Devices and Initial 
+                            Configuration</label><br>
+                        <input type="checkbox" id="course3" name="preferredCourse" value="course3">
+                        <label for="course3">Networking Essentials</label><br>
+                        <input type="checkbox" id="course4" name="preferredCourse" value="course4">
+                        <label for="course4">CCNA: Introduction to Networking (ITN) </label><br>
+                        <input type="checkbox" id="course5" name="preferredCourse" value="course5">
+                        <label for="course5">CCNA: Switching, Routing, and Wireless 
+                            Essentials (SRWE)
+                            <input type="checkbox" id="course6" name="preferredCourse" value="course6">
+                            <label for="course6">CCNA: Enterprise Networking, Security, and 
+                                Automation (ENSA)
+                                
+                            </label><br>
+                            <input type="checkbox" id="course7" name="preferredCourse" value="course7">
+                            <label for="course7">CCNP Enterprise: Core Networking (ENCOR) </label><br>
+                            <input type="checkbox" id="course8" name="preferredCourse" value="course8">
+                            <label for="course8">CCNP Enterprise: Advanced Routing (ENARSI)</label><br>
+                            <input type="checkbox" id="course9" name="preferredCourse" value="course9">
+                            <label for="course9">Get Connected  </label><br>
+                            <input type="checkbox" id="course10" name="preferredCourse" value="course5">
+                            <label for="course5">IT Essentials
+                            </label><br>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="form-field">
+                <label for="preferred-mode">Preferred Mode*</label><br> <br>
+                <select id="preferred-mode" name="preferredMode" required>
+                    <option value="">Select Preferred Mode</option>
+                    <option value="online">Virtual</option>
+                    <option value="offline">Physical</option>
+                    <option value="Self-Paced">Physical</option>
+
+                </select>
+            </div>
+            <div class="form-field">
+                <button type="submit">Send Message</button>
+            </div>
+        </div>
+    </form>
+
+  </section>
+   
+  
+
+
+<footer>
+    <div class="first">
+        <img src="images/logo.png" alt="">
+        <p>DCisco Academy is a leading provider of comprehensive technology training solutions and digital services, empowering individuals and businesses to thrive in the ever-evolving tech landscape. With a team of certified instructors, skilled developers, and industry experts, we offer a wide range of programs and services tailored to meet the specific needs of our clients.
+        </p>
+        <h3>Follow Us</h3>
+        <div class="socials">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+
+            <i class="fab fa-x-twitter"></i>
+        </div>
+
+    </div>
+    <div class="second">
+        <h5>Links</h5>
+        <a href="#">Categories</a>
+        <a href="#">Courses</a>
+        <a href="#">Services</a>
+            <a href="#">Success Stories<a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+
+    </div>
+    <div class="third">
+        <h5>Categories</h5>
+        <a href="#">Networking</a>
+        <a href="#">Programming</a>
+        <a href="#">Programming Infastructure</a>
+        <a href="#">Operating System and Information Technology</a>
+        <a href="#">Cyber Security</a>
+        <a href="#">Digital Marketing</a>
+
+    </div>
+
+
+</footer>
+
+
+
+<script src="app.js"></script>    
+</body>
+</html>

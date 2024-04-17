@@ -26,7 +26,71 @@
     align-items: center;
     color: white;
 }
+
 .about_us{
+    display: grid;
+    margin-top: 6rem;
+    padding: 1rem;
+    gap: 70px;
+    padding: 1rem 5rem;
+
+}
+.about_us p{
+    text-align: center;
+}
+
+.about_us .about{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.about_us .about .abt{
+    display: grid;
+    grid-template-columns: 500px auto;
+    gap: 2rem;
+
+
+}
+.about_us .about .about2,
+.about_us .about .about4{
+    display: grid;
+    grid-template-columns: 900px auto;
+    gap: 2rem;
+
+
+}
+.about_us .about .about5{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.about_us .about .about5 .text{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.about_us .about .abt .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.about_us .about .abt .text h3{
+    color: #4800BD;
+    font-size: 22px;
+    margin-left: 0;
+    padding-left: 0;
+}
+.about_us .about .abt .text p{
+    font-size: 15px;
+    margin-left: 0;
+    text-align: left;
+}
+/* .about_us{
     display: flex;
     flex-direction: column;
     margin-top: 7rem;
@@ -38,6 +102,50 @@
 .about_us h3{
     font-size: 20px;
     color: purple;
+}*/
+.get_started{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: #ECE7F4;
+    padding: 2rem;
+    height: 100%;
+    margin-bottom: -10rem;
+}
+.get_started h1{
+    color: purple; 
+}
+
+@media only screen and (max-width:600px){
+    footer{
+        margin-top: 10rem;
+    }
+    .container h1{
+    background-color: #4800BD;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    align-items: center;
+    color: white;
+    width: 80%;
+}
+.about_us{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-left: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_us h3{
+    font-size: 20px;
+    color: purple;
+    text-align: center;
 }
 .get_started{
     display: flex;
@@ -53,6 +161,99 @@
     color: purple;
 
 }
+
+.about_us{
+    display: grid;
+    margin-top: 6rem;
+    padding: 1rem;
+    gap: 70px;
+    padding: 1rem 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.about_us .hp{
+    text-align: center;
+    width: 80%;
+}
+
+.about_us p{
+    width: 80%;
+}
+
+.about_us img{
+}
+
+.about_us .about{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    margin-left: 15%;
+
+}
+.about_us .about .abt{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 2rem;
+
+
+}
+.about_us .about .about2{
+    display: flex;
+            flex-direction: column;
+            gap: 20px;
+            position: relative;
+            width: 90%;
+            margin-top: 17rem;
+
+
+}
+.about_us .about .about2 img
+{
+    width: 100%;
+            position: absolute;
+            margin-top: -80%;
+            height: 50%;
+            
+
+}
+
+.about_us .about .about5{
+    display: flex;
+            flex-direction: column;
+            gap: 20px;
+            position: relative;
+            width: 90%;
+            margin-top: 0;
+
+
+}
+.about_us .about .about5 .text{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.about_us .about .abt .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+}
+.about_us .about .abt .text h3{
+    color: #4800BD;
+    font-size: 22px;
+    margin-left: 0;
+    padding-left: 0;
+}
+.about_us .about .abt .text p{
+    font-size: 15px;
+    margin-left: 0;
+    text-align: left;
+}
+
+}
 </style>
 
 
@@ -64,15 +265,20 @@
         <img src="images/logo.png" alt="">
         <span></span>
         <ul class="nav-links">
-            <li><a href="courses.html">Courses</a></li>
-            <li class="dd-list"><a class="cat-link" href="https://google.com">Categories<span class="dropdown">&#9662;</span></a>
+            <!-- <li><a href="courses.html">Courses</a></li> -->
+            <li><a href="index.html">Home</a></li>
+
+            <li class="dd-list"><a class="cat-link" href="#">Course Categories<span class="dropdown">&#9662;</span></a>
                 <div class="dropdown-menu">
-                    <a href="#">Networking</a>
-                    <a href="#">Programming</a>
-                    <a href="#">Programming Infastructure</a>
-                    <a href="#">Operating System and Information Technology</a>
-                    <a href="#">Cyber Security</a>
-                    <a href="#">Digital Marketing</a>
+                    <a href="category_cyb.html">Cyber Security</a>
+                    <a href="category_ds.html">Data Science</a>
+
+
+                    <a href="category_net.html">Networking</a>
+                    <a href="category_prog.html">Programming</a>
+                    <a href="category_prIn.html">Programming Infastructure</a>
+                    <a href="category_os.html">OS and Information Tech.</a>
+                    <a href="category_dig.html">Digital Marketing</a>
 
                 </div>
             </li>
@@ -81,6 +287,13 @@
             <li><a href="about_us.html">About Us</a></li>
             <li><a href="contact_us.html">Contact Us</a></li>
         </ul>
+        <div class="switch">
+            <div>
+                <img class="burger" src="images/burger.png" alt="">
+
+            </div>
+            <div class="close-icon">&#10006;</div>
+        </div>
     </nav>
     <h1>About Us</h1>
 
@@ -88,28 +301,50 @@
    </div>
 
    <section class="about_us">
-   <p>
+   <p class="hp">
     DCisco Academy is a leading provider of comprehensive technology training solutions and digital services, empowering individuals and businesses to thrive in the ever-evolving tech landscape. With a team of certified instructors, skilled developers, and industry experts, we offer a wide range of programs and services tailored to meet the specific needs of our clients.
    </p> 
 
-<h3>Our Mission</h3>
-<p>
-    Our mission is to bridge the gap between emerging technologies and practical knowledge. We strive to equip our clients with the necessary skills and expertise to stay ahead of the curve, fostering innovation and driving success through cutting-edge education and digital solutions.
+   <div class="about">
 
-</p>
+    <div class="about1 abt">
+        <img src="images/abot_mis.png" alt="">
+        <div class="mis_text text">
+            <h3>Our Mission</h3>
+            <p>
+                Our mission is to bridge the gap between emerging technologies and practical knowledge. We strive to equip our clients with the necessary skills and expertise to stay ahead of the curve, fostering innovation and driving success through cutting-edge education and digital solutions.</p>
 
-<h3>Tech Training Expertise</h3>
+        </div>
+       
+
+    </div>
+    
+
+
+<div class="about2 abt">
+    <div class="tte_text text">
+        <h3>Tech Training Expertise</h3>
 <p>At the core of our services lies a robust portfolio of technology training programs. We specialize in delivering hands-on, instructor-led training in various domains, including but not limited: <br>
-
     - Cisco Certifications (CCNA, CCNP, CCIE) <br>
     - Cybersecurity and Ethical Hacking <br>
     - Cloud Computing (AWS, Azure, GCP) <br>
     - Programming and Development (Python, Java, Web Development) <br>
     - Networking Technologies (SDN, Wireless, VoIP) <br>
     
-    Our comprehensive curriculum, designed by industry experts, ensures our clients gain practical, job-ready skills and stay ahead of the latest technological advancements.</p>
+    Our comprehensive curriculum, designed by industry experts, ensures our clients gain practical, job-ready skills and stay ahead of the latest technological advancements.
+</p>
 
-<h3>Digital Services</h3>
+
+
+    </div>
+    <img src="images/abot_1.png" alt="">
+
+</div>
+
+<div class="about3 abt">
+    <img src="images/abot_2.png" alt="">
+    <div class="dig text">
+        <h3>Digital Services</h3>
 <p>Complementing our training offerings, we provide a range of digital services to support our clients' business goals: <br>
 
     - Website Design and Development <br>
@@ -119,13 +354,30 @@
     
     Our team of talented designers and developers work closely with clients to understand their unique requirements, delivering tailored solutions that drive growth, efficiency, and competitive advantage.</p>
 
-<h3>Our Approach</h3>
+    </div>
+</div>
+   
+
+<div class="about4 abt">
+    <div class="app text">
+        <h3>Our Approach</h3>
 <p>We prioritize a hands-on, interactive learning approach combined with real-world applications and case studies. Our training programs are designed to be flexible, offering options for instructor-led classroom training, online learning, or customized corporate training solutions.</p>
 
-<h3>Our Commitment</h3>
+    </div>
+    <img src="images/abot_3.png" alt="">
+
+</div>
+<div class="about5 abt">
+    <div class="comm text">
+        <h3>Our Commitment</h3>
 <p>
     At DCisco Academy, we are committed to delivering exceptional value through our unwavering dedication to quality, customer satisfaction, and continuous improvement. We foster a culture of collaboration, transparency, and ethical conduct, ensuring our clients receive the highest level of service and support throughout their journey with us.
 </p>
+
+    </div>
+</div>
+
+
 
 
    </section>
@@ -135,6 +387,10 @@
     <p>
         Explore our comprehensive training programs and digital services to discover how DCisco Academy can empower you or your organization to achieve success in the ever-evolving tech landscape. Contact us today to discuss your requirements and embark on a transformative journey with our trusted experts.
     </p>
+
+   </div>
+
+
    </section>
 
 
