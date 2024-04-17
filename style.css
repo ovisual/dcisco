@@ -966,11 +966,13 @@ footer h5{
     .second-image{
         left: 10%;
         margin-left: -14%;
-        margin-top:98%;
+        margin-top:80%;
        
         width: 30%;
         height:auto; 
         object-fit:cover;
+        opacity: 0.3;
+
     
     }
     .circle-p{
