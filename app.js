@@ -23,17 +23,43 @@ catlink.addEventListener('click', function(event) {
     dropdown_menu.style.display = (dropdown_menu.style.display !== "flex") ? "flex" : "none";
 });
 
-// document.addEventListener("DOMContentLoaded", function() {
-//     var carousel = document.querySelector('.partners_icons');
-//     var images = carousel.querySelectorAll('img');
-//     var currentIndex = 0;
 
-//     setInterval(function() {
-//         currentIndex = (currentIndex + 1) % images.length;
-//         var translateValue = -currentIndex * images[0].clientWidth;
-//         carousel.style.transform = 'translateX(' + translateValue + 'px)';
-//     }, 1000); // Move every 5 seconds
-// });
 
+var landingContent = [
+    { imagePath: "images/man.png", text1: "Master High Paying Tech Courses and Advance Your Career", text2:" Comprehensive training programs for Cisco certifications and cutting-edge tech skills" },
+    { imagePath: "images/hero2.png", text1: "We create innovation through Digital Transformation", text2: "DCisco Academy is a leading provider of comprehensive technology training solutions and digital services, empowering individuals and businesses to thrive in the ever-evolving tech landscape. With a team of certified instructors, skilled developers, and industry experts, we offer a wide range of programs and services tailored to meet the specific needs of our clients."}
+  ];
+
+  var currentIndex = 0; // Variable to track the current index in the landingContent array
+
+  window.onload = function() {
+    setInterval(changeLandingContent, 3000); // Call changeLandingContent function every 10 seconds
+  };
+
+  function changeLandingContent() {
+    var currentContent = landingContent[currentIndex];
+    var landingImage = document.getElementById("landing-image");
+    var landingText1 = document.getElementById("landing-text1");
+    var landingText2 = document.getElementById("landing-text2");
+
+
+    // Update image source and text with the current content
+    landingImage.src = currentContent.imagePath;
+    landingText1.textContent = currentContent.text1;
+    landingText2.textContent = currentContent.text2;
+
+
+
+    // Toggle class for styling the second image differently
+    if (currentIndex === 1) {
+        landingImage.classList.add('second-image');
+      } else {
+        landingImage.classList.remove('second-image');
+      }
+  
+
+    // Increment the index for the next content, loop back to 0 if reached the end
+    currentIndex = (currentIndex + 1) % landingContent.length;
+  }
 
 

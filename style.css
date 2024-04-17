@@ -84,7 +84,7 @@ nav ul a{
     /* display: none; */
 }
 header{
-    height: 460px;
+    height: 490px;
     background-color:#4800BD;
     margin: 0 2rem;
     border-radius: 2rem;
@@ -120,7 +120,7 @@ header .headerleft h1{
 header .headerleft p{
     margin-top: 3rem;
     margin-left: 0;
-    width: 440px;
+    width: 460px;
     font-style: normal;
 }
 header .headerleft button{
@@ -142,7 +142,17 @@ header .headerleft a{
 
     font-weight: 600;
 }
-header img{
+/* header img{
+    margin-left: 30rem;
+    margin-top: -5rem;
+ 
+    max-width: 100%;
+    height: auto; 
+    position: absolute; 
+
+} */
+
+header #landing-image{
     margin-left: 30rem;
     margin-top: -5rem;
     /* width: 799px; */
@@ -151,11 +161,12 @@ header img{
     height: auto; /* Automatically adjust height to maintain aspect ratio */
     /* display: block; Ensure the image behaves as a block element */
     position: absolute; 
-    /* top: 0; /* Align the top of the image with the top of the container */
-    /* left: 0; Align the left of the image with the left of the container */
-    /* right: 0; Align the right of the image with the right of the container */
-    /* bottom: 0; Align the bottom of the image with the bottom of the container */ 
-    /* margin: auto;  */
+
+}
+
+.second-image{
+    left: 20%
+
 }
 .circle-p{
     width: 4rem;
@@ -163,7 +174,7 @@ header img{
     border-radius: 50%;
     background-color: #C11B8F;
     position: absolute;
-    margin-left: 42rem;
+    margin-left: 46rem;
 }
 .circle-y{
     width: 2rem;
@@ -171,7 +182,7 @@ header img{
     border-radius: 50%;
     background-color:#E8B03A;
     position: absolute;
-    margin-left: 43rem;
+    margin-left: 46rem;
     margin-top: 27rem;
 }
 
@@ -181,7 +192,7 @@ header img{
     border-radius: 50%;
     background-color:#6CF5E2;
     position: absolute;
-    margin-left: 69rem;
+    margin-left: 74rem;
     margin-top: 4rem;
 }
 ul .dd-list{
@@ -400,8 +411,7 @@ background-color: red;
     font-size: 10px;
 }
 .testimonials{
-    padding: 3rem;
-    padding-left: 4rem;
+    padding: 2rem;
     background-color:#f1eef6;
 
 }
@@ -426,12 +436,12 @@ background-color: red;
     padding: 20px;
     justify-content: center;
     align-items: center;
-    width: 660px;
-    height: 300px;
+    width: 600px;
+    height: auto;
 }
 .testimony .text{
     color: white;
-    width: 490px;
+    width: 90%;
 }
 .star{
     color: yellow;;
@@ -442,9 +452,10 @@ background-color: red;
 .testimony .text p{
     font-size: 13px;
 }
-.imgt {
-    height: 200px;
-    width: 200px;
+.testimonials .testimonials_list .testimony .imgt {
+    height: auto;
+    width: 150px;
+    border-radius: 50%;
 }
 .qt{
     box-sizing: border-box;
@@ -554,13 +565,13 @@ background-color: red;
 .our_partners_clients .partners .partners_icons {
     display: flex;
     overflow:-moz-hidden-unscrollable;
-    width: 50%; /* Adjust as needed */
+    width: 30%; /* Adjust as needed */
     gap: 19rem;
 }
 
 .our_partners_clients .partners .partners_icons img {
     flex-shrink: 0;
-    width: 50%;
+    width: 30%;
     transition: transform 0.5s ease;
     animation: slideImage 25s linear infinite; /* Adjust duration as needed */
     object-fit: contain;
@@ -586,18 +597,17 @@ background-color: red;
 .our_partners_clients .clients .client_icons{
     display: flex;
     overflow:-moz-hidden-unscrollable;
-    width: 50%; 
-    gap: 3rem;
-    margin-left: -80rem;
-    padding-top: 5rem;
+    width: 30%; 
+    gap: 11rem;
+    margin-left: -20rem;
+    padding-top: 3rem;
     padding-bottom: 5rem;
 
 }
 .our_partners_clients .clients .client_icons img{
-    width:230px;
-    height: 180px;
+    height:auto;
     flex-shrink: 0;
-    width: 50%;
+    width: 20%;
     transition: transform 0.3s ease;
     animation: slideImage2 20s linear infinite; /* Adjust duration as needed */
     object-fit: contain;
@@ -1008,7 +1018,7 @@ footer h5{
     .featured_courses  .courses .course{
         background-color: rgba(255, 141, 235, 0.07);
         border-radius: 20px;
-        box-shadow: 1px 2px 3px rgba(138, 130, 130, 0.9);
+        box-shadow: 1px 0px 2px rgba(138, 130, 130, 0.9);
     
          /* Set the maximum width of the container */
         width: 90%;
@@ -1042,7 +1052,7 @@ footer h5{
         margin-left: 25%;
         position: absolute;
         top: 94%;
-        left: 9.8%;
+        left: 6.8%;
         font-size: smaller;
     }
     .featured_courses .courses .course a:hover{
