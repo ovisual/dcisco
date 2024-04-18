@@ -1072,14 +1072,14 @@ footer h5{
         text-decoration: none;
         background-color: rgb(242, 240, 242);
         color: rgb(31, 20, 20);
-        border-radius: 10px;
-        padding: 0.9rem 1.8rem;
+        border-radius: 7px;
+        padding: 0.4rem 1.2rem;
         text-align: center;
         justify-self: center;
         margin-left: 25%;
         position: absolute;
-        top: 94%;
-        left: 4.8%;
+        top: 95%;
+        left: 5.8%;
         font-size: smaller;
         font-weight: 500;
         border: 1px solid rgb(227, 218, 218);
