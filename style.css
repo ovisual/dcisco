@@ -302,7 +302,7 @@ ul .dropdown-menu a{
 .featured_courses .courses .course p{
     font-size: 13px;
     margin-bottom: 2rem;
-    padding-bottom: 5rem;
+    padding-bottom: 1rem;
 }
 
 
@@ -492,14 +492,17 @@ ul .dropdown-menu a{
     height: 50%;
     
 }
-.training h3,p{
-    margin: 1.3rem 1.5rem;
-}
+/* .training h3,p{
+    margin: 1.5rem 1.5rem;
+} */
 .training h3{
     font-weight: 600;
+    margin: 1rem 0.2rem;
+    padding: 0;
 }
 .training p{
     font-size: 13px;
+    padding: 1rem 1rem;
 }
 .training button{
     
@@ -510,6 +513,7 @@ ul .dropdown-menu a{
     height: 40px;
     color: #C11B8F;
     left: 33%;
+    bottom: -6%;
     position:absolute;
     cursor: pointer;
     
@@ -1061,6 +1065,7 @@ footer h5{
     .featured_courses  .courses .course p{
         font-size: 11px;
         margin-bottom: 2rem;
+        padding-bottom: 0;
     }
 
     .featured_courses .courses .course a{
@@ -1103,7 +1108,7 @@ footer h5{
         margin-top: 3rem;
         align-items: center;
         justify-content: center;
-        margin-left: 30px;
+        margin-left: 5px;
         overflow: hidden;
     
     }

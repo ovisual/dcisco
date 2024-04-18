@@ -164,6 +164,7 @@ height: 200px;
         max-width: 100%;
         width: 100%;
         margin: 10px auto;
+        justify-content: center;
         }
 
         /* .container nav{
@@ -179,7 +180,7 @@ height: 200px;
             border-radius: 20px;
             justify-content: center;
             text-align: center;
-            margin: 20px 10px;
+            margin: 20px 5%;
             padding: 20px 0;
             font-size: 20px;
             align-items: center;
@@ -237,7 +238,8 @@ height: 200px;
         }
         .services .service .text p{
             font-size: 13px;
-            margin-left: 0;
+            margin: 2rem 0;
+            padding: 0;
         }
         .services .service .text a{
             text-decoration: none;
@@ -264,7 +266,7 @@ height: 200px;
         .services .first img{
             width: 100%;
             position: absolute;
-            margin-top: 160%;
+            margin-top: 120%;
             height: 50%;
         
         }
