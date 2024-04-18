@@ -67,6 +67,8 @@
     padding: 19px;
     cursor: pointer;
     border-radius: 10px;
+    font-family: "Poppins";
+    font-size: 13px;
 
 }
 
@@ -91,13 +93,26 @@
 
     @media only screen and (max-width:600px){
 
+
+        .container{
+            width: 100%;
+        }
+        .nav{
+            width: 100%;
+        }
         .enroll{
         background-color: #fbf8fa;
         height: fit-content;
-        padding: 10px;
+        padding: 0;
         margin-top: 0;
+        overflow: hidden;
+        width: 100%;
 
         
+    }
+    .enroll form{
+        width: 100%;
+        padding: 0;
     }
         .form-field select{
         width: 100%;
@@ -107,14 +122,47 @@
     resize: none;
     }
     .enroll p{
-        width: 100%;
+        width: 90%;
         text-align: center;
         margin: 1rem auto;
         font-size: 12px;
     }
-    .enroll h3, p{
+    .enroll h3{
         text-align: center;
+        width: 90%;
+        margin-left: 1rem;
+        padding-top: 1rem;
     }
+
+    .dropdown-toggle {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 19px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: "Poppins";
+    font-size: 13px;
+
+}
+
+.dropdown-toggle:hover {
+    background-color: #e5e5e5;
+}
+
+.dropdown-options label {
+    display:block; /* Ensure checkboxes are inline */
+    flex-direction: column;
+
+}
+
+.dropdown-options input[type="checkbox"] {
+    display: block; /* Ensure checkboxes are inline */
+    vertical-align: middle; /* Align checkboxes vertically with labels */
+    margin-left: 0;
+    padding-right: 0;
+
+}
+
 
     }
   
@@ -235,7 +283,7 @@
                     <option value="">Select Preferred Mode</option>
                     <option value="online">Virtual</option>
                     <option value="offline">Physical</option>
-                    <option value="Self-Paced">Physical</option>
+                    <option value="Self-Paced">Self-Paced</option>
 
                 </select>
             </div>
