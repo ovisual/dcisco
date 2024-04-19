@@ -103,6 +103,13 @@ header .headerleft p{
     background-color: rgb(251, 247, 248);
 
 }
+.featured_courses .courses .course a{
+    padding: 0.6rem 1rem;
+    width: 40%;
+    margin-top: 1%;
+    right: 33%;
+}
+
 .course  p{
     padding: 10px;
 }
@@ -270,6 +277,7 @@ header .headerleft p{
         padding: 0.6rem 1rem;
         width: 40%;
         margin-top: 1%;
+        right: 33%;
     }
 
     .featured_courses .courses .course{
