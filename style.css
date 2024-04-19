@@ -1134,7 +1134,7 @@ footer h5{
         color: white; /* Set text color */
         padding-left: 0;
         margin-left: 2rem;
-        font-size: 20px;
+        font-size: 18px;
     }
     
     
@@ -1463,7 +1463,7 @@ footer h5{
         width: 100%;
     }
     .newsletter p{
-        font-size: 10px;
+        font-size: 12px;
         font-weight: 400;
         margin-top: 8px;
         width: 100%;
@@ -1473,9 +1473,9 @@ footer h5{
         padding: 13px;
         height: 15px;
         width: 150px;
-        border-radius: 13px 0px 0px 13px;
+        border-radius: 10px 0px 0px 10px;
         font-size: 13px;
-        margin-left: 4%;
+        margin-left: 0;
 
     
     }
@@ -1488,7 +1488,7 @@ footer h5{
         border: none;
         padding: 11px;
         height: 20px;
-        border-radius: 0px 20px 20px 0px;
+        border-radius: 0px 10px 10px 0px;
         background-color: #C11B8F;
         text-decoration: none;
         color: white;
@@ -1504,16 +1504,21 @@ footer h5{
         margin-left: 0;
         padding-left: -2rem;
         margin-top: -5rem;
-        display: none;
+        width: 20px;
+        height: 20px;
+        right: 5%;
+
     }
     .newsletter .circle-g{
         margin-left: 1px;
-        margin-top:8rem;
+        margin-top: 13rem;
     }
     .newsletter .circle-y{
-        margin-top: -7rem;
+        margin-top: -5rem;
         margin-left: 0;
-        display: none;
+        left: 10%;
+        width: 30px;
+        height: 30px;
 
     }
     
