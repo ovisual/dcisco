@@ -94,7 +94,12 @@ header .headerleft p{
     font-size: 18px;
     font-family: "Poppins";
 }
-
+.featured_courses .courses .course p{
+    width: 90%;
+    margin: 0 5px;
+    margin-bottom: 2rem;
+    background-color: red;
+}
 .course{
     background-color: rgb(251, 247, 248);
 
@@ -102,7 +107,9 @@ header .headerleft p{
 .course  p{
     padding: 10px;
 }
-
+.tags{
+    margin-top: 5px;
+}
 .tags .btns{
     display: flex;
     gap: 23px;
@@ -149,7 +156,7 @@ header .headerleft p{
     header .headerleft p{
         margin-left: 0;
         width: 100%;
-        font-size: 25px;
+        font-size: 15px;
     }
     
     .headerright button{
@@ -174,7 +181,7 @@ header .headerleft p{
         display: flex;
         flex-direction: column;
         gap: 0.1rem;
-        padding: 10px;
+        padding: 0;
         width: 100%;
         margin: 0;
 
@@ -204,6 +211,8 @@ header .headerleft p{
     .each_course .right .course_info{
         color: #AD47B2;
         line-height: 30px;
+        font-size: 15px;
+
     }
     
     .each_course .headerright button{
@@ -227,6 +236,10 @@ header .headerleft p{
         margin-top: 10px;
     
     }
+
+    .tags{
+        margin-top: 5px;
+    }
     .tags .btns button{
         padding: 10px;
         border-radius: 10px;
@@ -236,6 +249,31 @@ header .headerleft p{
     .each_course h4, p{
         width: 100%;
         margin: 1rem 0;
+        font-size: 15px;
+    }
+
+    .featured_courses .courses .course  h3{
+        width: 90%;
+        margin: 0 1rem;
+        margin-top: 10px;
+        font-size: 15px;
+
+    }
+
+    .featured_courses .courses .course p{
+        width: 90%;
+        margin: 0 5px;
+        margin-bottom: 2rem;
+        font-size: 11px;
+    }
+    .featured_courses .courses .course a{
+        padding: 0.6rem 1rem;
+        width: 40%;
+        margin-top: 1%;
+    }
+
+    .featured_courses .courses .course{
+        background-color:#f6cdf9;
     }
 
     .course{
