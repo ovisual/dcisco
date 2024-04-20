@@ -989,8 +989,8 @@ footer h5{
     
     }
     .circle-p{
-        width: 3rem;
-        height: 3rem;
+        width: 2rem;
+        height: 2rem;
         border-radius: 50%;
         background-color: #C11B8F;
         position: absolute;
@@ -998,8 +998,8 @@ footer h5{
         margin-top: 20rem;
     }
     .circle-y{
-        width: 2rem;
-        height: 2rem;
+        width: 1rem;
+        height: 1rem;
         border-radius: 50%;
         background-color:#E8B03A;
         position: absolute;
@@ -1008,8 +1008,8 @@ footer h5{
     }
     
     .circle-g{
-        width: 2.4rem;
-        height: 2.4rem;
+        width: 1.4rem;
+        height: 1.4rem;
         border-radius: 50%;
         background-color:#6CF5E2;
         position: absolute;
@@ -1026,7 +1026,7 @@ footer h5{
     
     }
     .featured_courses h1{
-        font-size: 25px;
+        font-size: 20px;
         color: #C11B8F;
         width: 80%;
     
@@ -1105,7 +1105,7 @@ footer h5{
     
     }
     .browse_category h1{
-        font-size: 25px;
+        font-size: 20px;
         color: #C11B8F;
     }
     .categories{
@@ -1151,7 +1151,7 @@ footer h5{
     }
     
     .why_choose_us h1{
-        font-size: 25px;
+        font-size: 20px;
         color: #C11B8F;
         padding: 1rem;
     }
@@ -1230,7 +1230,7 @@ footer h5{
     
     }
     .testimonials h1{
-        font-size: 26px;
+        font-size: 20px;
         color: #C11B8F;
     
     }
@@ -1293,7 +1293,7 @@ footer h5{
     
     }
     .upcoming_trainings h1{
-        font-size: 25px;
+        font-size: 20px;
         color: #C11B8F;
     
     }
@@ -1385,7 +1385,7 @@ footer h5{
     }
     
     .our_partners_clients h1{
-        font-size: 35px;
+        font-size: 20px;
         color: #C11B8F;
         text-align: center;
         margin-bottom: 0;
@@ -1447,7 +1447,7 @@ footer h5{
         width: 100%; /* Full width for smaller screens */
     }
     .our_partners_clients h1 {
-        font-size: 1.5rem; /* Decrease font size for smaller screens */
+        font-size: 20px; /* Decrease font size for smaller screens */
     }
    
       .whatsapp-icon img {
@@ -1465,7 +1465,7 @@ footer h5{
         text-align: center;
     }
     .newsletter h2{
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 600;
         width: 100%;
     }
