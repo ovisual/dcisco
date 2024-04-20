@@ -1085,7 +1085,7 @@ footer h5{
         margin-left: 25%;
         position: absolute;
         top: 94%;
-        right: 30%;
+        right: 34%;
         font-size: smaller;
         font-weight: 500;
         opacity: 0.9;
@@ -1258,30 +1258,34 @@ footer h5{
         color: white;
         width: 100%;
         margin-left: 0;
-        margin-top: -10%;
+        margin-top: 10%;
         line-height: 14px;
     }
-    .star{
+    .testimonials .testimonials_list .testimony p .star{
         color: yellow;
+        padding-top: 1px;
+        margin-top: 3rem;
 
     }
     .testimony .text h3{
+        margin-top: 8px;
         margin-bottom: 10px;
     }
     .testimony .text p{
         font-size: 10px;
         padding-bottom: 0;
-        margin-bottom: 0;
+        margin-bottom: 6px;
+        margin-top: 0;
     }
     .testimonials .testimonials_list .testimony .imgt {
-        height: 150px;
-        width: 150px;
+        height: 130px;
+        width: 130px;
        margin-bottom: 0;
     }
     .qt{
-        box-sizing: border-box;
         margin: 0;
         padding: 0;
+        
         
     
     }
