@@ -957,6 +957,11 @@ footer h5{
 
 
     }
+
+    header .headerleft .text2{
+        margin-top: 2rem;
+    
+    }
     .container header .headerleft button{
         background-color: white;
         margin-top:6%;
@@ -988,6 +993,7 @@ footer h5{
     }
 
     .second-image{
+        display: none;
         left: 10%;
         margin-left: -14%;
         margin-top:80%;
@@ -996,6 +1002,7 @@ footer h5{
         height:auto; 
         object-fit:cover;
         opacity: 0.2;
+        
 
     
     }
