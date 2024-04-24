@@ -942,6 +942,12 @@ footer h5{
         line-height: 2rem;
         text-align: center;
     }
+
+    header .headerleft .text1{
+      margin-left: 5rem;
+     
+    
+    }
     .container header .headerleft p{
         margin-top: 1rem;
         width:100%;

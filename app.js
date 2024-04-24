@@ -33,24 +33,13 @@ var landingContent = [
   var currentIndex = 0; // Variable to track the current index in the landingContent array
   hd=document.getElementById("hd")
 
+
   window.onload = function() {
-    var landingImage = document.getElementById("landing-image");
-    var landingText1 = document.getElementById("landing-text1");
-    var landingText2 = document.getElementById("landing-text2");
+    changeLandingContent(); // Call changeLandingContent function when the window loads
+    setInterval(changeLandingContent, 10000); // Call changeLandingContent function every 10 seconds
+  };
 
-    // Set initial state for the elements without transition effect
-    landingImage.style.transform = "scale(1)";
-    landingText1.style.transform = "scale(1)";
-    landingText2.style.transform = "scale(1)";
-    landingImage.style.opacity = 1;
-    landingText1.style.opacity = 1;
-    landingText2.style.opacity = 1;
-
-    // Call changeLandingContent function every 10 seconds after initial appearance
-    setInterval(changeLandingContent, 10000);
-};
-
-function changeLandingContent() {
+  function changeLandingContent() {
     var currentContent = landingContent[currentIndex];
     var landingImage = document.getElementById("landing-image");
     var landingText1 = document.getElementById("landing-text1");
@@ -65,36 +54,40 @@ function changeLandingContent() {
     landingText2.style.opacity = 0;
 
     setTimeout(function() {
-        // Update image source and text with the current content
-        landingImage.src = currentContent.imagePath;
-        landingText1.textContent = currentContent.text1;
-        landingText2.textContent = currentContent.text2;
+      // Update image source and text with the current content
+      landingImage.src = currentContent.imagePath;
+      landingText1.textContent = currentContent.text1;
+      landingText2.textContent = currentContent.text2;
 
-        // Apply transition effect by changing transform and opacity
-        landingImage.style.transform = "scale(1)";
-        landingText1.style.transform = "scale(1)";
-        landingText2.style.transform = "scale(1)";
-        landingImage.style.opacity = 1;
-        landingText1.style.opacity = 1;
-        landingText2.style.opacity = 1;
+      // Apply transition effect by changing transform and opacity
+      landingImage.style.transform = "scale(1)";
+      landingText1.style.transform = "scale(1)";
+      landingText2.style.transform = "scale(1)";
+      landingImage.style.opacity = 1;
+      landingText1.style.opacity = 1;
+      landingText2.style.opacity = 1;
 
-        // Toggle class for styling the second image differently
-        if (currentIndex === 1) {
-            landingImage.classList.add('second-image');
-            landingText1.classList.add('text1');
-            landingText2.classList.add('text2');
-            hd.style.backgroundColor = "#BC6DA4";
-        } else {
-            landingImage.classList.remove('second-image');
-            landingText1.classList.remove('text1');
-            landingText2.classList.remove('text2');
-            hd.style.backgroundColor = "#4800BD";
-        }
+      // Toggle class for styling the second image differently
+      if (currentIndex === 1) {
+        landingImage.classList.add('second-image');
+        landingText1.classList.add('text1');
+        landingText2.classList.add('text2');
+        hd.style.backgroundColor = "#BC6DA4";
+      } else {
+        landingImage.classList.remove('second-image');
+        landingText1.classList.remove('text1');
+        landingText2.classList.remove('text2');
+        hd.style.backgroundColor = "#4800BD";
+      }
 
-        // Increment the index for the next content, loop back to 0 if reached the end
-        currentIndex = (currentIndex + 1) % landingContent.length;
-    }, 900); // Wait for 900ms before updating content
-}
+      // Increment the index for the next content, loop back to 0 if reached the end
+      currentIndex = (currentIndex + 1) % landingContent.length;
+    }, 700); // Wait for 500ms before updating content
+  }
+
+
+
+
 
   function toggleDropdown() {
     var dropdownOptions = document.getElementById("dropdown-options");
