@@ -19,6 +19,7 @@ h1, h2, h3, p, a{
     background-color:rgba(251, 217, 245, 0.5);
     height: 750px;
     width: 100%;
+    overflow: hidden;
 }
 
 nav{
@@ -88,7 +89,7 @@ nav ul a{
 header{
     height: 490px;
     background-color:#4800BD;
-    margin: 0 2rem;
+    margin: 0 1.5rem;
     border-radius: 2rem;
     padding: 4rem;
     display: flex;
@@ -411,7 +412,7 @@ ul .dropdown-menu a{
     font-size: 10px;
 }
 .testimonials{
-    padding: 2rem 0;
+    padding: 1.3rem 0;
     background-color:#f1eef6;
     width: 100%;
 
@@ -420,14 +421,15 @@ ul .dropdown-menu a{
     font-size: 35px;
     color: #C11B8F;
     margin-left: 3rem;
+    width: 60%;
 
 }
 .testimonials_list{
     display: grid;
     grid-template-columns: auto auto;
-    gap: 0;
+    gap: 10px;
     margin-top: 2rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
     /* max-width: 900px;
     width: 100%; */
     width: auto;
@@ -440,7 +442,7 @@ ul .dropdown-menu a{
     padding: 0 8px;
     justify-content: center;
     align-items: center;
-    width: 600px;
+    width: 90%;
     height: auto;
 }
 .testimony .text{
@@ -459,7 +461,7 @@ ul .dropdown-menu a{
 }
 .testimonials .testimonials_list .testimony .imgt {
     height: auto;
-    width: 130px;
+    width: 110px;
     border-radius: 50%;
 }
 .qt{
@@ -547,6 +549,8 @@ ul .dropdown-menu a{
     right: 0; /* Adjust as needed */
     z-index: 9999;
     cursor: pointer;
+    width: 20%;
+    overflow: hidden;
   }
   
   .whatsapp-icon img {
@@ -564,6 +568,7 @@ ul .dropdown-menu a{
     align-items: center;
     gap: 1rem;
     overflow: hidden;
+
 
 }
 
