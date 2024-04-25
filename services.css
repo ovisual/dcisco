@@ -33,7 +33,6 @@ overflow:hidden;
     grid-template-columns: 400px auto;
     gap: 8rem;
     width: 100%;
-    overflow: hidden;
     margin: 2rem;
 
 
@@ -174,6 +173,8 @@ overflow:hidden;
         width: 100%;
         margin: 10px auto;
         justify-content: center;
+        overflow:unset;
+
         }
 
         /* .container nav{
@@ -228,6 +229,7 @@ overflow:hidden;
             padding: 10px;
             justify-self: center;
             align-items: center;
+            margin: 2rem 0;
 
         
         

@@ -427,9 +427,9 @@ ul .dropdown-menu a{
 .testimonials_list{
     display: grid;
     grid-template-columns: auto auto;
-    gap: 10px;
+    gap: 5px;
     margin-top: 2rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
     /* max-width: 900px;
     width: 100%; */
     width: auto;
