@@ -25,6 +25,7 @@
     font-size: 40px;
     align-items: center;
     color: white;
+    overflow: hidden;
 }
 
 .about_us{
@@ -32,17 +33,21 @@
     margin-top: 6rem;
     padding: 1rem;
     gap: 70px;
-    padding: 1rem 5rem;
+    padding: 1rem 0;
+    width: 100%;
+    overflow: hidden;
 
 }
 .about_us p{
     text-align: center;
+    width: 90%;
 }
 
 .about_us .about{
     display: flex;
     flex-direction: column;
     gap: 5rem;
+    padding: 1rem;
 }
 .about_us .about .abt{
     display: grid;
@@ -51,11 +56,15 @@
 
 
 }
+
+.about_us .about .about1{
+    gap: 0;
+}
 .about_us .about .about2,
 .about_us .about .about4{
     display: grid;
-    grid-template-columns: 900px auto;
-    gap: 2rem;
+    grid-template-columns: 800px auto;
+    gap: 1rem;
 
 
 }
