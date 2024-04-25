@@ -2,7 +2,8 @@
 .container{
 /* background-color: #B4239A; */
 background-color:white;
-height: 200px;
+height: 260px;
+overflow:hidden;
 }
     
 
@@ -20,15 +21,20 @@ height: 200px;
 
 .services{
     display: grid;
-    margin-top: 7rem;
-    padding: 4rem;
-    gap: 8rem;
+    margin-top: 2rem;
+    padding: 4rem 0;
+    gap: 6rem;
+    width: 100%;
+    overflow: hidden;
 
 }
 .services .service{
     display: grid;
     grid-template-columns: 400px auto;
-    gap: 7rem;
+    gap: 8rem;
+    width: 100%;
+    overflow: hidden;
+    margin: 2rem;
 
 
 }
@@ -36,6 +42,7 @@ height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
 }
 .services .service .text h2{
     color: #4800BD;
@@ -44,6 +51,7 @@ height: 200px;
 .services .service .text p{
     font-size: 15px;
     margin-left: 0;
+    width: 93%;
 }
 .services .service .text a{
     text-decoration: none;
@@ -53,7 +61,7 @@ height: 200px;
     width: 30%;
     padding: 10px;
     text-align: center;
-    margin-left: 25rem;
+    margin-left: 13rem;
     font-weight: 600;
 }
 
@@ -61,7 +69,7 @@ height: 200px;
 .services .second{
     display: grid;
     grid-template-columns: 600px auto;
-    gap: 7rem;
+    gap: 6rem;
 
 }
 .services .second img{
@@ -90,7 +98,7 @@ height: 200px;
 .services .forth{
     display: grid;
     grid-template-columns: 600px auto;
-    gap: 11rem;
+    gap: 8rem;
     justify-content: center;
     align-items: center;
     margin-left: -1rem;
@@ -102,10 +110,10 @@ height: 200px;
 .services .fifth{
     display: grid;
     grid-template-columns: 400px auto;
-    gap: 8rem;
+    gap: 6rem;
     justify-content: center;
     align-items: center;
-    margin-left: -1rem;
+    margin-left: 1rem;
 
 }
 .services .fifth img{
@@ -115,10 +123,10 @@ height: 200px;
 .services .sixth{
     display: grid;
     grid-template-columns: 600px auto;
-    gap: 15rem;
+    gap: 8rem;
     justify-content: center;
     align-items: center;
-    margin-left: -1rem;
+    margin-left: 1rem;
 
 }
 .services .sixth img{
@@ -128,10 +136,11 @@ height: 200px;
 .services .eight{
     display: grid;
     grid-template-columns: 600px auto;
-    gap: 16rem;
-    justify-content: center;
-    align-items: center;
-    margin-left: -1rem;
+    gap: 10rem;
+    /* justify-content: center;
+    align-items: center; */
+    width: 100%;
+    overflow: hidden;
 
 }
 .services .eight img{
