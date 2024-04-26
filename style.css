@@ -1000,12 +1000,12 @@ footer h5{
         /* margin-left: 8rem; */
     }
     .container header img{
-        margin-left: -1%;
-        margin-top:94%;
+        margin-left: 3%;
+        margin-top:100%;
        
-        width: 100%;
-        height:auto; 
-        object-fit:cover;
+        /* width: 400px;
+        height:fi;  */
+        /* object-fit:fill; */
     }
 
     .second-image{
