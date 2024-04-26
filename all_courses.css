@@ -1,11 +1,12 @@
 .container{
     height: fit-content;
+    /* overflow: unhset; */
 }
 .container .cyber{
     background-color: white;
     padding: 2rem;
     display: grid;
-    grid-template-columns: 780px auto;
+    grid-template-columns: 680px auto;
 }
 
 header{
@@ -33,10 +34,10 @@ header .headerleft p{
     font-size: 18px;
     border-radius: 23px;
     padding: 15px;
-    width: 200px;
+    width: 170px;
     background-color: white;
     transition: 0.4s all;
-    
+    margin-left: -2rem ;
     
 }
 .headerright button:hover{
@@ -56,7 +57,7 @@ header .headerleft p{
     padding: 30px;
 }
 .each_course .left img{
-    height: 100%;
+    height: 50%;
     border-radius: 20px;
 }
 .each_course .right{
@@ -84,6 +85,7 @@ header .headerleft p{
     border: none;
     padding: 10px;
     border-radius: 7px;
+    margin-left: 0;
 }
 .each_course .headerright button a{
     color: white;
