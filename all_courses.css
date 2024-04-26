@@ -176,6 +176,8 @@ header .headerleft p{
         border-radius: 13px;
         padding: 9px;
         width: 100px;
+        /* justify-self: center; */
+        margin-left: 2%;
        
         
         
