@@ -47,6 +47,10 @@ nav img{
    
 }
 
+.container .nav-links .dd-list .dropdown-menu{
+   
+}
+
 nav ul li{
     display: inline-block;
     padding-left: 2rem;
@@ -89,13 +93,13 @@ nav ul a{
 header{
     height: 490px;
     background-color:#4800BD;
-    margin: 0 1.5rem;
+    margin: 0 1rem;
     border-radius: 2rem;
     padding: 4rem;
     display: flex;
     /* align-items: center; */
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* width:auto; */
     width: 87%;
 }
@@ -167,11 +171,11 @@ header .headerleft a{
 } */
 
 header img{
-    margin-left: 30rem;
+    margin-left: 25rem;
     margin-top: -5rem;
     /* width: 799px; */
     /* overflow: hidden; */
-    max-width: 100%; /* Ensure the image doesn't exceed the container's width */
+    max-width: 70%; /* Ensure the image doesn't exceed the container's width */
     height: auto; /* Automatically adjust height to maintain aspect ratio */
     /* display: block; Ensure the image behaves as a block element */
     position: absolute; 
@@ -179,13 +183,14 @@ header img{
 }
 
 #landing-image, #landing-text1, #landing-text2 {
-    transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
     transform: scale(0.5); /* Initially set scale to 0.5 */
     opacity: 0; /* Initially set opacity to 0 */
   }
 
 .second-image{
-    left: 20%
+    left: 25%;
+    height: 95%;
 
 }
 .circle-p{
@@ -194,7 +199,7 @@ header img{
     border-radius: 50%;
     background-color: #C11B8F;
     position: absolute;
-    margin-left: 46rem;
+    margin-left: 40rem;
 }
 .circle-y{
     width: 2rem;
@@ -202,7 +207,7 @@ header img{
     border-radius: 50%;
     background-color:#E8B03A;
     position: absolute;
-    margin-left: 46rem;
+    margin-left: 40rem;
     margin-top: 27rem;
 }
 
@@ -212,7 +217,7 @@ header img{
     border-radius: 50%;
     background-color:#6CF5E2;
     position: absolute;
-    margin-left: 74rem;
+    margin-left: 65rem;
     margin-top: 4rem;
 }
 ul .dd-list{
@@ -241,7 +246,7 @@ ul .dropdown-menu a{
 
 .featured_courses{
     padding: 3rem;
-    margin-left: 4rem;
+    margin-left: 1rem;
 
 }
 .featured_courses h1{
@@ -584,7 +589,7 @@ ul .dropdown-menu a{
     display: flex;
     overflow:-moz-hidden-unscrollable;
     width: 30%; /* Adjust as needed */
-    gap: 19rem;
+    gap: 10rem;
 }
 
 .our_partners_clients .partners .partners_icons img {

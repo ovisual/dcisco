@@ -82,7 +82,7 @@ var landingContent = [
 
       // Increment the index for the next content, loop back to 0 if reached the end
       currentIndex = (currentIndex + 1) % landingContent.length;
-    }, 700); // Wait for 500ms before updating content
+    }, 300); // Wait for 500ms before updating content
   }
 
 
@@ -98,15 +98,16 @@ var landingContent = [
     }
 }
 
-// Close dropdown if user clicks outside
+// Close dropdown if user clicks outside the dropdown or its related elements
 window.onclick = function(event) {
-    if (!event.target.matches('.dropdown-toggle')) {
-        var dropdownOptions = document.getElementById("dropdown-options");
+    var dropdownOptions = document.getElementById("dropdown-options");
+    var dropdownToggle = document.querySelector('.dropdown-toggle');
+
+    if (!event.target.matches('.dropdown-toggle') && !event.target.matches('#dropdown-options') && !dropdownOptions.contains(event.target)) {
         if (dropdownOptions.style.display === "block") {
             dropdownOptions.style.display = "none";
         }
     }
 }
-
 
 
