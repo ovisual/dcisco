@@ -111,3 +111,13 @@ window.onclick = function(event) {
 }
 
 
+
+function updateCheckboxValues() {
+  var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+  checkboxes.forEach(function(checkbox) {
+      var label = document.querySelector('label[for="' + checkbox.id + '"]');
+      checkbox.value = label.textContent;
+  });
+}
+
+

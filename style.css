@@ -541,6 +541,14 @@ ul .dropdown-menu a{
     cursor: pointer;
     
 }
+
+.training button a{
+    color: #C11B8F;
+    font-size: 16px;
+
+
+
+}
 .training button:hover{
     background-color: white;
     color: #492a40;
@@ -1289,7 +1297,7 @@ footer h5{
         padding: 0;
         justify-content: center;
         align-items: center;
-        width: 90%;
+        width: 95%;
         height: 40%;
         overflow: hidden;
     }
