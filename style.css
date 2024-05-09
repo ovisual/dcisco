@@ -262,12 +262,12 @@ ul .dropdown-menu a{
 .featured_courses .courses{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 10%;
+    column-gap: 1%;
     /* gap:50px; */
     margin-top: 3rem;
     align-items: center;
     justify-content: center;
-    width: 90%;
+    width: 95%;
     margin: auto;
 
 }
@@ -348,7 +348,7 @@ ul .dropdown-menu a{
 .categories{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 19%;
+    gap: 10%;
     margin-top: 3rem;
     align-items: center;
     justify-content: center;
