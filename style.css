@@ -1117,6 +1117,7 @@ footer h5{
         overflow: hidden;
         padding: 1rem 0;
         margin-left: 0;
+        width: 100%;
 
         
     
@@ -1192,6 +1193,7 @@ footer h5{
         justify-content: center;
         margin-left: 5px;
         overflow: hidden;
+        width: 100%;
     
     }
     .category{
