@@ -7,6 +7,10 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.homepage{
+    max-width: 1900px;
+}
 a{
     text-decoration: none;
     color: white;
@@ -102,7 +106,7 @@ header{
     position: relative;
     /* overflow: hidden; */
     /* width:auto; */
-    width: 90%;
+    width: 83%;
     margin: auto;
 }
 header .headerleft{
@@ -173,7 +177,7 @@ header .headerleft a{
 } */
 
 header img{
-    margin-left: 40%;
+    margin-left: 36%;
     margin-top: -5rem;
     /* width: 799px; */
     /* overflow: hidden; */
@@ -257,6 +261,7 @@ ul .dropdown-menu a{
     font-size: 35px;
     color: #C11B8F;
     margin-bottom: 3rem;
+    padding: 3rem;
 
 }
 .featured_courses .courses{
@@ -1443,13 +1448,19 @@ footer h5{
         right: 10%; /* Adjust as needed */
         z-index: 9999;
         cursor: pointer;
-        width: 20%;
+        width: 10%;
         margin: 0;
         padding: 0;
       }
 
       .whatsapp-icon a img{
-        width: 100%;
+        width: 10px;
+      }
+
+      .whatsapp-icon img{
+        width: 20px;
+        height: 20px;
+
       }
 
      
