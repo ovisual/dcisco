@@ -197,6 +197,7 @@ header img{
 .second-image{
     left: 25%;
     height: 95%;
+    top: 18%;
 
 }
 .circle-p{
@@ -260,8 +261,9 @@ ul .dropdown-menu a{
 .featured_courses h1{
     font-size: 35px;
     color: #C11B8F;
-    margin-bottom: 3rem;
-    padding: 3rem;
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+    padding-left: 3rem;
 
 }
 .featured_courses .courses{
@@ -348,7 +350,9 @@ ul .dropdown-menu a{
 .browse_category h1{
     font-size: 35px;
     color: #C11B8F;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
+    padding-left: 5rem;
+
 }
 .categories{
     display: grid;
@@ -395,8 +399,9 @@ ul .dropdown-menu a{
 .why_choose_us h1{
     font-size: 35px;
     color: #C11B8F;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     width: 100%;
+
 }
 .lists{
     display: grid;
@@ -452,13 +457,16 @@ ul .dropdown-menu a{
     background-color:#f1eef6;
     width: 100%;
     margin-top: 3rem;
+    /* padding: 3rem; */
+
 
 }
 .testimonials h1{
     font-size: 35px;
     color: #C11B8F;
-    margin-left: 3rem;
+    /* margin-left: 3rem; */
     width: 60%;
+
 
 }
 .testimonials_list{
@@ -1183,11 +1191,14 @@ footer h5{
         padding: 10px;
         padding-left: 1px;
         background-color: #f1eef6;
+        overflow: hidden;
+        width: 100%;
     
     }
     .browse_category h1{
         font-size: 20px;
         color: #C11B8F;
+        padding-left: 1rem;
     }
     .categories{
         display: flex;
@@ -1198,7 +1209,8 @@ footer h5{
         justify-content: center;
         margin-left: 5px;
         overflow: hidden;
-        width: 100%;
+        width: 90%;
+        margin: auto;
     
     }
     .category{
@@ -1236,6 +1248,8 @@ footer h5{
         font-size: 20px;
         color: #C11B8F;
         padding: 1rem;
+        width: 50%;
+        
     }
     .why_choose_us .lists{
         display: flex;
@@ -1381,11 +1395,13 @@ footer h5{
         padding: 10px;
         padding-left: 10px;
         margin-top: 4rem;
+        overflow: hidden;
     
     }
     .upcoming_trainings h1{
         font-size: 20px;
         color: #C11B8F;
+        width: 80%;
     
     }
     .trainings{
