@@ -29,6 +29,7 @@ nav{
     align-items: center;
     padding: 2rem;
     width: 95%;
+    margin: auto;
 
 }
 nav img{
@@ -93,7 +94,7 @@ nav ul a{
 header{
     height: 490px;
     background-color:#4800BD;
-    margin: 0 1rem;
+    /* margin: 0 1rem; */
     border-radius: 2rem;
     padding: 4rem;
     display: flex;
@@ -101,7 +102,8 @@ header{
     position: relative;
     /* overflow: hidden; */
     /* width:auto; */
-    width: 87%;
+    width: 90%;
+    margin: auto;
 }
 header .headerleft{
     color: white;
@@ -171,7 +173,7 @@ header .headerleft a{
 } */
 
 header img{
-    margin-left: 25rem;
+    margin-left: 40%;
     margin-top: -5rem;
     /* width: 799px; */
     /* overflow: hidden; */
@@ -245,22 +247,28 @@ ul .dropdown-menu a{
 
 
 .featured_courses{
-    padding: 3rem;
-    margin-left: 1rem;
+    /* padding: 3rem; */
+    /* margin-left: 1rem; */
+    width: 100%;
+
 
 }
 .featured_courses h1{
     font-size: 35px;
     color: #C11B8F;
+    margin-bottom: 3rem;
 
 }
 .featured_courses .courses{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap:50px;
+    column-gap: 10%;
+    /* gap:50px; */
     margin-top: 3rem;
     align-items: center;
     justify-content: center;
+    width: 90%;
+    margin: auto;
 
 }
 .featured_courses .course{
@@ -272,6 +280,7 @@ ul .dropdown-menu a{
     width: 100%;
     height: 90%;
     position: relative;
+    margin: auto;
 
 }
 
@@ -320,29 +329,39 @@ ul .dropdown-menu a{
 
 
 .browse_category{
-    padding: 3rem;
-    padding-left: 4rem;
+    /* padding: 3rem; */
+    /* padding-left: 4rem; */
     background-color: #f1eef6;
+    width: 100%;
+    /* margin: auto; */
+    /* overflow: hidden; */
+    margin-top: 3rem;
+    padding: 2rem 0;
+    padding-bottom: 7rem;
 
 }
 .browse_category h1{
     font-size: 35px;
     color: #C11B8F;
+    margin-bottom: 3rem;
 }
 .categories{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 35px;
+    gap: 19%;
     margin-top: 3rem;
     align-items: center;
     justify-content: center;
-    margin-left: 3rem;
+    /* margin-left: 3rem; */
+    width: 80%;
+    margin: auto;
 
 }
 .category{
     position: relative; /* Set container to relative position */
     display: inline-block;
     width: 280px;
+    margin: auto;
     
 }
 .category img{
@@ -360,14 +379,19 @@ ul .dropdown-menu a{
 
 
 .why_choose_us{
-    padding: 3rem;
-    padding-left: 4rem;
+    /* padding: 3rem; */
+    /* padding-left: 4rem; */
     background-color: rgb(245, 249, 247);
+    width: 100%;
+    /* overflow: hidden; */
+    margin-top: 3rem;
 }
 
 .why_choose_us h1{
     font-size: 35px;
     color: #C11B8F;
+    margin-bottom: 3rem;
+    width: 100%;
 }
 .lists{
     display: grid;
@@ -377,6 +401,7 @@ ul .dropdown-menu a{
     align-items: center;
     justify-content: center;
     margin-left: 3rem;
+    margin: auto;
 
 }
 .list{
@@ -390,6 +415,7 @@ ul .dropdown-menu a{
     align-items: center;
     gap: 1rem;
     background-color: white;
+    margin: auto;
 }
 .list img{
     width: 70px;
@@ -420,6 +446,7 @@ ul .dropdown-menu a{
     padding: 1.3rem 0;
     background-color:#f1eef6;
     width: 100%;
+    margin-top: 3rem;
 
 }
 .testimonials h1{
@@ -479,13 +506,17 @@ ul .dropdown-menu a{
 }
 
 .upcoming_trainings{
-    padding: 3rem;
-    padding-left: 4rem;
+    /* padding: 3rem;
+    padding-left: 4rem; */
+    margin-top: 3rem;
+    width: 100%;
+    margin: auto;
 
 }
 .upcoming_trainings h1{
     font-size: 35px;
     color: #C11B8F;
+    margin-top: 3rem;
 
 }
 .trainings{
@@ -495,6 +526,7 @@ ul .dropdown-menu a{
     margin-top: 3rem;
     align-items: center;
     justify-content: center;
+    margin: auto;
 
 }
 .training{
@@ -506,6 +538,7 @@ ul .dropdown-menu a{
     width: 100%;
     height:70%;
     position: relative;
+    margin: auto;
 
 }
 .training img{
