@@ -240,8 +240,11 @@ ul .dd-list{
     padding: 1rem;
     border-radius: 20px;
     gap: 10px;
-    width: 10rem;
-    align-items: center;
+    width: 13.5rem;
+    /* align-items: center; */
+    justify-content: left;
+    text-align: left;
+    align-items: flex-start;
 }
 ul .dropdown-menu a{
     font-size: 15px;
@@ -259,17 +262,17 @@ ul .dropdown-menu a{
 
 }
 .featured_courses h1{
-    font-size: 35px;
+    font-size: 25px;
     color: #C11B8F;
     margin-bottom: 1rem;
     padding-top: 2rem;
-    padding-left: 3rem;
+    padding-left: 4rem;
 
 }
 .featured_courses .courses{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 1%;
+    column-gap: 2%;
     /* gap:50px; */
     margin-top: 3rem;
     align-items: center;
@@ -348,7 +351,7 @@ ul .dropdown-menu a{
 
 }
 .browse_category h1{
-    font-size: 35px;
+    font-size: 25px;
     color: #C11B8F;
     margin-bottom: 2rem;
     padding-left: 5rem;
@@ -393,14 +396,17 @@ ul .dropdown-menu a{
     background-color: rgb(245, 249, 247);
     width: 100%;
     /* overflow: hidden; */
-    margin-top: 3rem;
+    margin-top: 0;
+    padding-top: 5rem;
 }
 
 .why_choose_us h1{
-    font-size: 35px;
+    font-size: 25px;
     color: #C11B8F;
     margin-bottom: 1rem;
-    width: 100%;
+    width: 60%;
+    padding-left: 3rem;
+
 
 }
 .lists{
@@ -462,10 +468,12 @@ ul .dropdown-menu a{
 
 }
 .testimonials h1{
-    font-size: 35px;
+    font-size: 25px;
     color: #C11B8F;
     /* margin-left: 3rem; */
     width: 60%;
+    padding-left: 2rem;
+
 
 
 }
@@ -527,9 +535,11 @@ ul .dropdown-menu a{
 
 }
 .upcoming_trainings h1{
-    font-size: 35px;
+    font-size: 25px;
     color: #C11B8F;
     margin-top: 3rem;
+    padding-left: 2rem;
+
 
 }
 .trainings{
@@ -613,7 +623,7 @@ ul .dropdown-menu a{
   }
   
   .whatsapp-icon img {
-    width: 60%; /* Adjust as needed */
+    width: 38%; /* Adjust as needed */
     height: auto;
   }
   
@@ -632,7 +642,7 @@ ul .dropdown-menu a{
 }
 
 .our_partners_clients h1{
-    font-size: 35px;
+    font-size: 25px;
     color: #C11B8F;
     text-align: center;
     margin-bottom: 0;
@@ -1107,7 +1117,7 @@ footer h5{
     .featured_courses{
         padding:0;
         padding-left: 0;
-        margin-top: 2rem;
+        margin-top: 0;
         width: 100%;
         margin-left: 0;
         margin-right: 0;
@@ -1117,6 +1127,7 @@ footer h5{
         font-size: 20px;
         color: #C11B8F;
         width: 80%;
+        padding-left: 2rem;
     
     }
     .featured_courses .courses{
@@ -1188,7 +1199,7 @@ footer h5{
     
     
     .browse_category{
-        padding: 10px;
+        /* padding: 10px; */
         padding-left: 1px;
         background-color: #f1eef6;
         overflow: hidden;
@@ -1392,9 +1403,9 @@ footer h5{
     }
     
     .upcoming_trainings{
-        padding: 10px;
-        padding-left: 10px;
-        margin-top: 4rem;
+        /* padding: 10px;
+        padding-left: 10px; */
+        margin-top: 0;
         overflow: hidden;
     
     }
@@ -1402,6 +1413,9 @@ footer h5{
         font-size: 20px;
         color: #C11B8F;
         width: 80%;
+        padding-left: 1rem;
+        margin-bottom: 3rem;
+        margin-top: 1rem;
     
     }
     .trainings{
@@ -1470,14 +1484,10 @@ footer h5{
       }
 
       .whatsapp-icon a img{
-        width: 10px;
+        width: 50px;
       }
 
-      .whatsapp-icon img{
-        width: 20px;
-        height: 20px;
-
-      }
+      
 
      
 

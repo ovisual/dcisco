@@ -12,7 +12,8 @@
 header{
     display: flex;
     height: fit-content;
-    gap: 12rem;
+    gap: 14%;
+    width: 85%;
 }
 .headerright{
     margin-top: 7rem;
@@ -22,7 +23,7 @@ header{
     flex-direction: column;
     justify-content: left;
     text-align: left;
-    width: 900x;
+    /* width: 900x; */
 }
 header .headerleft p{
     margin-left: 0;
@@ -37,7 +38,7 @@ header .headerleft p{
     width: 170px;
     background-color: white;
     transition: 0.4s all;
-    margin-left: -2rem ;
+    /* margin-left: -40% ; */
     
 }
 .headerright button:hover{
@@ -133,6 +134,10 @@ header .headerleft p{
     padding: 10px;
     border-radius: 10px;
     border: 1px solid rgb(128, 123, 123);
+}
+
+footer{
+    margin-top: 5rem;
 }
 
 @media only screen and (max-width:600px){
@@ -300,6 +305,9 @@ header .headerleft p{
     .footer{
         width: 100%;
         margin: 0 13px;
+        
+        margin-top: 0;
+        
     }
 
     

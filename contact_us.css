@@ -10,10 +10,12 @@ padding: 3rem;
 font-size: 40px;
 align-items: center;
 color: white;
+margin: auto;
 }
 
 .contact_us{
-    margin: 8rem 0rem 0rem -4rem;
+    width: 90%;
+    margin:5rem auto;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -123,7 +125,7 @@ form button{
     }
     
     .contact_us{
-        margin: 0;
+        margin:  2rem auto;
         display: flex;
         flex-direction: column;
         gap: 2rem;
