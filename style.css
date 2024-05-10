@@ -619,7 +619,7 @@ ul .dropdown-menu a{
     z-index: 9999;
     cursor: pointer;
     width: 20%;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   
   .whatsapp-icon img {
@@ -1406,7 +1406,7 @@ footer h5{
         /* padding: 10px;
         padding-left: 10px; */
         margin-top: 0;
-        overflow: hidden;
+        /* overflow: hidden; */
     
     }
     .upcoming_trainings h1{
