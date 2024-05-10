@@ -354,7 +354,7 @@ ul .dropdown-menu a{
     font-size: 25px;
     color: #C11B8F;
     margin-bottom: 2rem;
-    padding-left: 5rem;
+    padding-left: 3rem;
 
 }
 .categories{
@@ -365,7 +365,7 @@ ul .dropdown-menu a{
     align-items: center;
     justify-content: center;
     /* margin-left: 3rem; */
-    width: 80%;
+    width: 95%;
     margin: auto;
 
 }
