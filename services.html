@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>dcisco website</title>
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="services.css">
+
     <!-- <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,20 +18,30 @@
 
 </head>
 <body>
+    <div class="homepage">
+
    <div class="container">
     <nav>
         <img src="images/logo.png" alt="">
         <span></span>
         <ul class="nav-links">
-            <li><a href="courses.html">Courses</a></li>
-            <li class="dd-list"><a class="cat-link" href="https://google.com">Categories<span class="dropdown">&#9662;</span></a>
+             <!-- <li><a href="courses.html">Courses</a></li> -->
+             <li><a href="index.html">Home</a></li>
+
+            <li class="dd-list"><a class="cat-link" href="#">Course Categories<span class="dropdown">&#9662;</span></a>
                 <div class="dropdown-menu">
-                    <a href="#">Networking</a>
-                    <a href="#">Programming</a>
-                    <a href="#">Programming Infastructure</a>
-                    <a href="#">Operating System and Information Technology</a>
-                    <a href="#">Cyber Security</a>
-                    <a href="#">Digital Marketing</a>
+                    <a href="category_cyb.html">Cyber Security</a>
+                    <a href="category_ds.html">Data Science</a>
+
+
+                    <a href="category_net.html">Networking</a>
+                    <a href="category_prog.html">Programming</a>
+                    <a href="category_prIn.html">Programming Infastructure</a>
+                    <a href="category_os.html">OS and Information Tech.</a>
+                    <a href="category_dig.html">Digital Marketing</a>
+                    <a href="category_proff.html">Digital Literacy</a>
+
+
 
                 </div>
             </li>
@@ -38,6 +50,13 @@
             <li><a href="about_us.html">About Us</a></li>
             <li><a href="contact_us.html">Contact Us</a></li>
         </ul>
+        <div class="switch">
+            <div>
+                <img class="burger" src="images/burger.png" alt="">
+
+            </div>
+            <div class="close-icon">&#10006;</div>
+        </div>
     </nav>
     <h1>Services</h1>
     
@@ -48,7 +67,7 @@
         <div class="text">
             <h2>Tech Training</h2>
             <p>Empower yourself and your team with our comprehensive training programs. We offer expert-led training sessions covering a wide range of areas. Our hands-on, interactive approach ensures you gain practical skills and stay ahead of the curve in today's rapidly evolving digital landscape. Whether you prefer on-site, virtual, or self-paced learning, our customizable training solutions cater to your specific requirements, helping your or your organization achieve the  goals and maintain a competitive edge.</p>
-            <a href="#">Explore Courses</a>
+            <a href="index.html#browse_category">Explore Courses</a>
         </div>
 
 
@@ -94,6 +113,38 @@
 
     </div>
 
+    <div class="sixth service">
+        <div class="text">
+            <h2>Portal Learning Management System</h2>
+            <p>Our mobile app development services bring your ideas to life with intuitive, feature-rich, and engaging applications. Whether you need iOS, Android, or cross-platform apps, our team crafts seamless user experiences while ensuring high performance and security.</p>
+            <a href="#">Get Quote</a>
+        </div>
+        <img src="images/lms.jfif" alt="">
+
+
+    </div>
+
+    <div class="seventh service">
+        <img src="images/cbt.png" alt="">
+        <div class="text">
+            <h2>CBT Platform (Online and Offline)</h2>
+            <p>Streamline your assessment process with our Computer-Based Test (CBT) platform. Seamlessly administer tests, quizzes, and exams online, ensuring efficiency, security, and accuracy. Experience a user-friendly interface for both administrators and test-takers, enhancing the testing experience while maintaining integrity</p>
+            <a href="#">Get Quote</a>
+        </div>
+
+        </div>
+
+        <div class="eight service">
+            <div class="text">
+                <h2>Networking and Installation of Devices(LAN, WAN, CCTV CAMERAS)</h2>
+                <p>Elevate your connectivity and security infrastructure with our Networking and Installation Services. From Local Area Networks (LAN) to Wide Area Networks (WAN) and CCTV camera setups, we provide expert installation and configuration tailored to your needs. Ensure seamless communication and surveillance across your premises with our reliable and efficient solutions</p>
+                <a href="#">Get Quote</a>
+            </div>
+            <img src="images/cctv.jfif" alt="">
+    
+    
+        </div>
+
 </section>
 <section class="why_choose_us">
     <h1>Why Choose Us</h1>
@@ -107,38 +158,52 @@
         </p>
         <h3>Follow Us</h3>
         <div class="socials">
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-linkedin"></i>
+            <a href="https://www.facebook.com/dciscoacademy"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/company/dcisco-academy/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/dciscoacademy"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@dciscoacademy1830"><i class="fab fa-youtube"></i></a>
 
-            <i class="fab fa-x-twitter"></i>
+
         </div>
 
     </div>
     <div class="second">
         <h5>Links</h5>
-        <a href="#">Categories</a>
-        <a href="#">Courses</a>
-        <a href="#">Services</a>
-            <a href="#">Success Stories<a>
-            <a href="#">About Us</a>
-            <a href="#">Contact Us</a>
+        <a href="index.html">Home</a>
+
+        <a href="#browse_category">Categories</a>
+        <a href="services.html">Services</a>
+            <a href="success_stories.html">Success Stories<a>
+            <a href="about_us.html">About Us</a>
+            <a href="contact_us.html">Contact Us</a>
+
 
     </div>
     <div class="third">
         <h5>Categories</h5>
-        <a href="#">Networking</a>
-        <a href="#">Programming</a>
-        <a href="#">Programming Infastructure</a>
-        <a href="#">Operating System and Information Technology</a>
-        <a href="#">Cyber Security</a>
-        <a href="#">Digital Marketing</a>
+        <a href="category_cyb.html">Cyber Security</a>
+        <a href="category_ds.html">Data Science</a>
+
+
+        <a href="category_net.html">Networking</a>
+        <a href="category_prog.html">Programming</a>
+        <a href="category_prIn.html">Programming Infastructure</a>
+        <a href="category_os.html">OS and Information Tech.</a>
+        <a href="category_dig.html">Digital Marketing</a>
+        <a href="category_proff.html">Digital Literacy</a>
+
+
+
+
+
+
 
     </div>
 
 
 </footer>
+</div>
+
 
 
 
